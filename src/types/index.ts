@@ -8,6 +8,7 @@ export interface SentenceTimestamp {
   start: number; // seconds
   end: number;
   text: string;
+  displayText?: string; // optional rich text with **bold** markers for key words
 }
 
 export interface VocabItem {

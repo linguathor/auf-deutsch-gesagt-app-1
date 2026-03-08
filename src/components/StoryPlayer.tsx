@@ -9,6 +9,19 @@ interface StoryPlayerProps {
   onComplete?: () => void;
 }
 
+function renderBold(text: string) {
+  const parts = text.split(/\*\*(.*?)\*\*/g);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} className="font-bold text-foreground">
+        {part}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function StoryPlayer({ module, onComplete }: StoryPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentSentence, setCurrentSentence] = useState(-1);
@@ -155,7 +168,7 @@ export default function StoryPlayer({ module, onComplete }: StoryPlayerProps) {
                         : "hover:text-gold-400"
                     }`}
                   >
-                    {s.text}{" "}
+                    {renderBold(s.displayText ?? s.text)}{" "}
                   </span>
                 );
               })}

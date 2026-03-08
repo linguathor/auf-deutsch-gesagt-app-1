@@ -7,77 +7,169 @@ const module1: CourseModule = {
   subtitle: "machen \u2013 die Kraft des Machens",
   focusVerb: "machen",
   learningGoals: [
-    "Redewendungen mit \u2018machen\u2019 sicher verwenden",
-    "Eine Geschichte im Pr\u00e4teritum verstehen",
-    "Neue Ausdr\u00fccke im Kontext erkennen",
+    "Trennbare Verben mit \u00abmachen\u00bb sicher verwenden",
+    "Eine Alltagsgeschichte im Pr\u00e4teritum/Pr\u00e4sens verstehen",
+    "Redewendungen und Wortschatz (B2+) im Kontext erkennen",
     "Kurze Texte mit Pflicht-Vokabular schreiben",
   ],
   estimatedMinutes: 45,
   story: {
-    text: [
-      "Lena stand am Fenster und starrte auf die Stra\u00dfe. Die Ampel sprang auf Gr\u00fcn, aber sie machte sich nicht auf den Weg. Irgendetwas machte ihr zu schaffen.",
-      "",
-      "Seit Wochen machte sie sich Sorgen um ihre Arbeit. Ihr Chef hatte ihr klargemacht, dass Ver\u00e4nderungen kommen w\u00fcrden. \u00abWir m\u00fcssen das Beste daraus machen\u00bb, hatte er gesagt, aber seine Stimme machte wenig Mut.",
-      "",
-      "Am Morgen hatte sie sich fertiggemacht und war zum B\u00fcro gelaufen. Auf dem Weg machte sie Halt bei ihrem Lieblingscaf\u00e9. Der Kaffee machte sie wach, aber die Gedanken blieben schwer.",
-      "",
-      "Im B\u00fcro machte sich Unruhe breit. Kollegen machten Witze, um die Stimmung aufzulockern, aber alle wussten: Heute w\u00fcrde man N\u00e4gel mit K\u00f6pfen machen.",
-      "",
-      "Um 14 Uhr machte der Chef endlich den Mund auf. \u00abWir machen einen Neuanfang\u00bb, sagte er. \u00abKeine Entlassungen, aber neue Projekte. Wer mitmacht, kann etwas bewegen.\u00bb",
-      "",
-      "Lena machte gro\u00dfe Augen. Das hatte sie nicht erwartet. Pl\u00f6tzlich machte alles Sinn. Sie meldete sich als Erste \u2013 und machte damit den Anfang.",
-    ].join("\n"),
+    text: `Unter Strom
+
+Als ich an diesem Montagmorgen das Licht im B\u00fcro anmachen will, passiert genau gar nichts.
+Ich dr\u00fccke noch mal auf den Schalter. Nichts. Das Neonlicht an der Decke bleibt schwarz, der Bildschirm vom Rechner auch.
+
+\u00abNa super\u00bb, murmele ich und mache erst mal das Fenster weit auf, damit wenigstens etwas Tageslicht reinkommt. Drau\u00dfen ist es grau, aber grau ist immer noch besser als stockdunkel.
+
+Im Flur h\u00f6re ich Schritte. Mehmet steckt den Kopf zur T\u00fcr rein.
+\u00abBei euch auch alles tot?\u00bb, fragt er. \u00abIm Lager ist der Strom weg, die Jungs k\u00f6nnen nichts mehr fertigmachen.\u00bb
+
+\u00abJa\u00bb, seufze ich. \u00abIch kann nicht mal die Kaffeemaschine anmachen. Das ist fast das Schlimmste, was bei der Arbeit passieren kann.\u00bb
+
+Mehmet grinst kurz, aber man sieht den Stress in seinem Gesicht. \u00abIch stehe heute echt unter Strom\u00bb, sagt er.
+
+Wir lachen, aber die Stimmung ist angespannt. Um neun soll eine gro\u00dfe Lieferung rausgehen. Mit dem Kunden haben wir letzte Woche ganz klar ausgemacht, dass heute alles auf dem Lkw ist.
+
+Jule kommt ins B\u00fcro, legt ihre Tasche ab und dr\u00fcckt testweise noch mal auf den Lichtschalter. \u00abOkay\u00bb, sagt sie, \u00abheute ist echt der Wurm drin.\u00bb
+
+Sie schaut mich an. \u00abWir hatten doch mit denen abgemacht, dass der Termin fix ist, oder?\u00bb
+
+\u00abJa, steht so im System\u2026 also stand\u00bb, murmele ich. Ich tippe sinnlos auf die Tastatur, der Rechner bleibt schwarz.
+
+Frau Kr\u00fcger taucht in der T\u00fcr auf. \u00abKurzes Update: Es gibt einen lokalen Stromausfall. Die Hausverwaltung arbeitet dran. Wir versuchen, so gut es geht weiterzumachen. Alex, du hast die Kunden am besten im Blick, oder?\u00bb
+
+Ich nicke. \u00abIch rufe an und mache ihnen klar, dass wir nichts daf\u00fcr k\u00f6nnen.\u00bb
+\u00abGenau\u00bb, sagt sie. \u00abBitte freundlich, aber deutlich. Und macht euch nicht verr\u00fcckt, wir bekommen das hin.\u00bb
+
+Ich hole mein Diensthandy aus der Tasche. Wenigstens das hat Akku. Beim ersten Kunden erkl\u00e4re ich die Lage.
+\u00abWir hatten ja ausgemacht, dass die Ware heute rausgeht\u00bb, sagt er k\u00fchl.
+\u00abStimmt\u00bb, antworte ich. \u00abUnter normalen Umst\u00e4nden h\u00e4tten wir das l\u00e4ngst fertiggemacht. Aber ohne Strom k\u00f6nnen wir nicht kommissionieren. Wir k\u00f6nnen gern ausmachen, dass wir morgen fr\u00fch als Erstes liefern.\u00bb
+
+Nach ein paar Telefonaten merke ich, wie die Formulierungen automatisch flie\u00dfen. Vor zehn Jahren h\u00e4tte mich so eine Situation komplett kirre gemacht. Heute bin ich gestresst, ja, aber ich stehe nicht mehr v\u00f6llig auf dem Schlauch.
+
+Im Lager ist es weiterhin duster. Mehmet zeigt mir mit der Handy-Taschenlampe den Sicherungskasten. Der Hausmeister ist am Telefon.
+Ich halte mir das Handy ein St\u00fcck vom Ohr weg; er klingt leicht genervt. \u00abIch mache mich gleich zu euch auf\u00bb, sagt er. \u00abAber fasst mir blo\u00df nichts an, klar?\u00bb
+
+Ich schaue zu Mehmet. \u00abEr will, dass wir nichts anfassen. Er macht sich gleich zu uns auf.\u00bb
+Schon jetzt stehen Mehmet und ich stramm wie zwei kleine Schuljungen, obwohl sie nichts verbrochen haben. Typisch unser Hausmeister \u2013 ist immer schlecht gelaunt und muss einen immer gleich bl\u00f6d anmachen.
+
+Ein paar Minuten sp\u00e4ter geht die T\u00fcr auf und der Hausmeister steht auf der Matte. Ohne viele Worte geht er zum Sicherungskasten, macht die Klappe auf und dr\u00fcckt irgendwo entschlossen drauf. Im selben Moment springt wie von Zauberhand das Licht an.
+
+\u00abSo\u00bb, sagt er, \u00abjetzt sehen wir wenigstens wieder was.\u00bb Er beugt sich noch einmal zum Kasten. \u00abHier haben wohl die Handwerker am Wochenende dran rumgepfuscht. Kein Wunder, dass hier alles im Eimer ist.\u00bb
+
+\u00abIhr k\u00f6nnt wieder weitermachen\u00bb, f\u00fcgt er hinzu. \u00abAber bitte nichts auf eigene Faust an der Elektronik machen, ja? Wenn hier einer \u00abnur mal kurz\u00bb was ausprobiert, haben wir den Salat.\u00bb
+
+Wir nicken nur brav und sagen nichts.
+
+Zur\u00fcck im B\u00fcro starte ich sofort den Rechner, checke die E-Mails und tippe eine kurze Info an die wichtigsten Kunden. Ich versuche, freundlich zu klingen und trotzdem klarzumachen, dass wir wirklich alles tun, um die Verz\u00f6gerung aufzuholen.
+
+Gegen Mittag l\u00e4uft alles wieder halbwegs rund. Ich habe meinen Kaffee, das Licht funktioniert, die Lkws sind beladen. Nur mein Kopf f\u00fchlt sich ein bisschen an, als h\u00e4tte ihn jemand kaputtgemacht.
+
+Als ich abends zu Hause bin, mache ich die Wohnungst\u00fcr auf, lasse die Tasche fallen und mache das Handy konsequent aus. \u00abGenug gemacht heute\u00bb, sage ich laut zu mir selbst.`,
     paragraphs: [
-      "Lena stand am Fenster und starrte auf die Stra\u00dfe. Die Ampel sprang auf Gr\u00fcn, aber sie machte sich nicht auf den Weg. Irgendetwas machte ihr zu schaffen.",
-      "Seit Wochen machte sie sich Sorgen um ihre Arbeit. Ihr Chef hatte ihr klargemacht, dass Ver\u00e4nderungen kommen w\u00fcrden. \u00abWir m\u00fcssen das Beste daraus machen\u00bb, hatte er gesagt, aber seine Stimme machte wenig Mut.",
-      "Am Morgen hatte sie sich fertiggemacht und war zum B\u00fcro gelaufen. Auf dem Weg machte sie Halt bei ihrem Lieblingscaf\u00e9. Der Kaffee machte sie wach, aber die Gedanken blieben schwer.",
-      "Im B\u00fcro machte sich Unruhe breit. Kollegen machten Witze, um die Stimmung aufzulockern, aber alle wussten: Heute w\u00fcrde man N\u00e4gel mit K\u00f6pfen machen.",
-      "Um 14 Uhr machte der Chef endlich den Mund auf. \u00abWir machen einen Neuanfang\u00bb, sagte er. \u00abKeine Entlassungen, aber neue Projekte. Wer mitmacht, kann etwas bewegen.\u00bb",
-      "Lena machte gro\u00dfe Augen. Das hatte sie nicht erwartet. Pl\u00f6tzlich machte alles Sinn. Sie meldete sich als Erste \u2013 und machte damit den Anfang.",
+      `Als ich an diesem Montagmorgen das Licht im B\u00fcro anmachen will, passiert genau gar nichts. Ich dr\u00fccke noch mal auf den Schalter. Nichts. Das Neonlicht an der Decke bleibt schwarz, der Bildschirm vom Rechner auch.`,
+      `\u00abNa super\u00bb, murmele ich und mache erst mal das Fenster weit auf, damit wenigstens etwas Tageslicht reinkommt. Drau\u00dfen ist es grau, aber grau ist immer noch besser als stockdunkel.`,
+      `Im Flur h\u00f6re ich Schritte. Mehmet steckt den Kopf zur T\u00fcr rein. \u00abBei euch auch alles tot?\u00bb, fragt er. \u00abIm Lager ist der Strom weg, die Jungs k\u00f6nnen nichts mehr fertigmachen.\u00bb`,
+      `\u00abJa\u00bb, seufze ich. \u00abIch kann nicht mal die Kaffeemaschine anmachen. Das ist fast das Schlimmste, was bei der Arbeit passieren kann.\u00bb`,
+      `Mehmet grinst kurz, aber man sieht den Stress in seinem Gesicht. \u00abIch stehe heute echt unter Strom\u00bb, sagt er.`,
+      `Wir lachen, aber die Stimmung ist angespannt. Um neun soll eine gro\u00dfe Lieferung rausgehen. Mit dem Kunden haben wir letzte Woche ganz klar ausgemacht, dass heute alles auf dem Lkw ist.`,
+      `Jule kommt ins B\u00fcro, legt ihre Tasche ab und dr\u00fcckt testweise noch mal auf den Lichtschalter. \u00abOkay\u00bb, sagt sie, \u00abheute ist echt der Wurm drin.\u00bb`,
+      `Sie schaut mich an. \u00abWir hatten doch mit denen abgemacht, dass der Termin fix ist, oder?\u00bb`,
+      `\u00abJa, steht so im System\u2026 also stand\u00bb, murmele ich. Ich tippe sinnlos auf die Tastatur, der Rechner bleibt schwarz.`,
+      `Frau Kr\u00fcger taucht in der T\u00fcr auf. \u00abKurzes Update: Es gibt einen lokalen Stromausfall. Die Hausverwaltung arbeitet dran. Wir versuchen, so gut es geht weiterzumachen. Alex, du hast die Kunden am besten im Blick, oder?\u00bb`,
+      `Ich nicke. \u00abIch rufe an und mache ihnen klar, dass wir nichts daf\u00fcr k\u00f6nnen.\u00bb \u00abGenau\u00bb, sagt sie. \u00abBitte freundlich, aber deutlich. Und macht euch nicht verr\u00fcckt, wir bekommen das hin.\u00bb`,
+      `Ich hole mein Diensthandy aus der Tasche. Wenigstens das hat Akku. Beim ersten Kunden erkl\u00e4re ich die Lage. \u00abWir hatten ja ausgemacht, dass die Ware heute rausgeht\u00bb, sagt er k\u00fchl. \u00abStimmt\u00bb, antworte ich. \u00abUnter normalen Umst\u00e4nden h\u00e4tten wir das l\u00e4ngst fertiggemacht. Aber ohne Strom k\u00f6nnen wir nicht kommissionieren. Wir k\u00f6nnen gern ausmachen, dass wir morgen fr\u00fch als Erstes liefern.\u00bb`,
+      `Nach ein paar Telefonaten merke ich, wie die Formulierungen automatisch flie\u00dfen. Vor zehn Jahren h\u00e4tte mich so eine Situation komplett kirre gemacht. Heute bin ich gestresst, ja, aber ich stehe nicht mehr v\u00f6llig auf dem Schlauch.`,
+      `Im Lager ist es weiterhin duster. Mehmet zeigt mir mit der Handy-Taschenlampe den Sicherungskasten. Der Hausmeister ist am Telefon. Ich halte mir das Handy ein St\u00fcck vom Ohr weg; er klingt leicht genervt. \u00abIch mache mich gleich zu euch auf\u00bb, sagt er. \u00abAber fasst mir blo\u00df nichts an, klar?\u00bb`,
+      `Ich schaue zu Mehmet. \u00abEr will, dass wir nichts anfassen. Er macht sich gleich zu uns auf.\u00bb Schon jetzt stehen Mehmet und ich stramm wie zwei kleine Schuljungen, obwohl sie nichts verbrochen haben. Typisch unser Hausmeister \u2013 ist immer schlecht gelaunt und muss einen immer gleich bl\u00f6d anmachen.`,
+      `Ein paar Minuten sp\u00e4ter geht die T\u00fcr auf und der Hausmeister steht auf der Matte. Ohne viele Worte geht er zum Sicherungskasten, macht die Klappe auf und dr\u00fcckt irgendwo entschlossen drauf. Im selben Moment springt wie von Zauberhand das Licht an.`,
+      `\u00abSo\u00bb, sagt er, \u00abjetzt sehen wir wenigstens wieder was.\u00bb Er beugt sich noch einmal zum Kasten. \u00abHier haben wohl die Handwerker am Wochenende dran rumgepfuscht. Kein Wunder, dass hier alles im Eimer ist.\u00bb`,
+      `\u00abIhr k\u00f6nnt wieder weitermachen\u00bb, f\u00fcgt er hinzu. \u00abAber bitte nichts auf eigene Faust an der Elektronik machen, ja? Wenn hier einer \u00abnur mal kurz\u00bb was ausprobiert, haben wir den Salat.\u00bb`,
+      `Wir nicken nur brav und sagen nichts.`,
+      `Zur\u00fcck im B\u00fcro starte ich sofort den Rechner, checke die E-Mails und tippe eine kurze Info an die wichtigsten Kunden. Ich versuche, freundlich zu klingen und trotzdem klarzumachen, dass wir wirklich alles tun, um die Verz\u00f6gerung aufzuholen.`,
+      `Gegen Mittag l\u00e4uft alles wieder halbwegs rund. Ich habe meinen Kaffee, das Licht funktioniert, die Lkws sind beladen. Nur mein Kopf f\u00fchlt sich ein bisschen an, als h\u00e4tte ihn jemand kaputtgemacht.`,
+      `Als ich abends zu Hause bin, mache ich die Wohnungst\u00fcr auf, lasse die Tasche fallen und mache das Handy konsequent aus. \u00abGenug gemacht heute\u00bb, sage ich laut zu mir selbst.`,
     ],
     sentences: [
-      { start: 0, end: 3.5, text: "Lena stand am Fenster und starrte auf die Stra\u00dfe." },
-      { start: 3.5, end: 7.2, text: "Die Ampel sprang auf Gr\u00fcn, aber sie machte sich nicht auf den Weg." },
-      { start: 7.2, end: 10.0, text: "Irgendetwas machte ihr zu schaffen." },
-      { start: 10.0, end: 14.5, text: "Seit Wochen machte sie sich Sorgen um ihre Arbeit." },
-      { start: 14.5, end: 19.0, text: "Ihr Chef hatte ihr klargemacht, dass Ver\u00e4nderungen kommen w\u00fcrden." },
-      { start: 19.0, end: 24.0, text: "\u00abWir m\u00fcssen das Beste daraus machen\u00bb, hatte er gesagt, aber seine Stimme machte wenig Mut." },
-      { start: 24.0, end: 28.5, text: "Am Morgen hatte sie sich fertiggemacht und war zum B\u00fcro gelaufen." },
-      { start: 28.5, end: 32.0, text: "Auf dem Weg machte sie Halt bei ihrem Lieblingscaf\u00e9." },
-      { start: 32.0, end: 36.0, text: "Der Kaffee machte sie wach, aber die Gedanken blieben schwer." },
-      { start: 36.0, end: 39.5, text: "Im B\u00fcro machte sich Unruhe breit." },
-      { start: 39.5, end: 44.0, text: "Kollegen machten Witze, um die Stimmung aufzulockern, aber alle wussten:" },
-      { start: 44.0, end: 47.0, text: "Heute w\u00fcrde man N\u00e4gel mit K\u00f6pfen machen." },
-      { start: 47.0, end: 51.0, text: "Um 14 Uhr machte der Chef endlich den Mund auf." },
-      { start: 51.0, end: 55.5, text: "\u00abWir machen einen Neuanfang\u00bb, sagte er." },
-      { start: 55.5, end: 60.0, text: "\u00abKeine Entlassungen, aber neue Projekte. Wer mitmacht, kann etwas bewegen.\u00bb" },
-      { start: 60.0, end: 63.0, text: "Lena machte gro\u00dfe Augen." },
-      { start: 63.0, end: 65.5, text: "Das hatte sie nicht erwartet." },
-      { start: 65.5, end: 68.0, text: "Pl\u00f6tzlich machte alles Sinn." },
-      { start: 68.0, end: 72.0, text: "Sie meldete sich als Erste \u2013 und machte damit den Anfang." },
+      { start: 0, end: 4.0, text: "Als ich an diesem Montagmorgen das Licht im B\u00fcro anmachen will, passiert genau gar nichts.", displayText: "Als ich an diesem Montagmorgen das Licht im B\u00fcro **anmachen** will, passiert genau gar nichts." },
+      { start: 4.0, end: 7.0, text: "Ich dr\u00fccke noch mal auf den Schalter. Nichts." },
+      { start: 7.0, end: 11.0, text: "Das Neonlicht an der Decke bleibt schwarz, der Bildschirm vom Rechner auch." },
+      { start: 11.0, end: 16.0, text: "\u00abNa super\u00bb, murmele ich und mache erst mal das Fenster weit auf, damit wenigstens etwas Tageslicht reinkommt.", displayText: "\u00abNa super\u00bb, murmele ich und **mache** erst mal das Fenster weit **auf**, damit wenigstens etwas Tageslicht reinkommt." },
+      { start: 16.0, end: 20.0, text: "Drau\u00dfen ist es grau, aber grau ist immer noch besser als stockdunkel." },
+      { start: 20.0, end: 23.0, text: "Im Flur h\u00f6re ich Schritte. Mehmet steckt den Kopf zur T\u00fcr rein." },
+      { start: 23.0, end: 27.5, text: "\u00abBei euch auch alles tot?\u00bb, fragt er. \u00abIm Lager ist der Strom weg, die Jungs k\u00f6nnen nichts mehr fertigmachen.\u00bb", displayText: "\u00abBei euch auch alles tot?\u00bb, fragt er. \u00abIm Lager ist der Strom weg, die Jungs k\u00f6nnen nichts mehr **fertigmachen**.\u00bb" },
+      { start: 27.5, end: 32.0, text: "\u00abJa\u00bb, seufze ich. \u00abIch kann nicht mal die Kaffeemaschine anmachen.\u00bb", displayText: "\u00abJa\u00bb, seufze ich. \u00abIch kann nicht mal die Kaffeemaschine **anmachen**.\u00bb" },
+      { start: 32.0, end: 35.5, text: "Das ist fast das Schlimmste, was bei der Arbeit passieren kann." },
+      { start: 35.5, end: 40.0, text: "Mehmet grinst kurz, aber man sieht den Stress in seinem Gesicht." },
+      { start: 40.0, end: 43.5, text: "\u00abIch stehe heute echt unter Strom\u00bb, sagt er.", displayText: "\u00abIch stehe heute echt **unter Strom**\u00bb, sagt er." },
+      { start: 43.5, end: 48.0, text: "Wir lachen, aber die Stimmung ist angespannt. Um neun soll eine gro\u00dfe Lieferung rausgehen." },
+      { start: 48.0, end: 53.0, text: "Mit dem Kunden haben wir letzte Woche ganz klar ausgemacht, dass heute alles auf dem Lkw ist.", displayText: "Mit dem Kunden haben wir letzte Woche ganz klar **ausgemacht**, dass heute alles auf dem Lkw ist." },
+      { start: 53.0, end: 58.0, text: "Jule kommt ins B\u00fcro, legt ihre Tasche ab und dr\u00fcckt testweise noch mal auf den Lichtschalter." },
+      { start: 58.0, end: 61.0, text: "\u00abOkay\u00bb, sagt sie, \u00abheute ist echt der Wurm drin.\u00bb", displayText: "\u00abOkay\u00bb, sagt sie, \u00abheute ist echt der **Wurm drin**.\u00bb" },
+      { start: 61.0, end: 65.0, text: "Sie schaut mich an. \u00abWir hatten doch mit denen abgemacht, dass der Termin fix ist, oder?\u00bb", displayText: "Sie schaut mich an. \u00abWir hatten doch mit denen **abgemacht**, dass der Termin fix ist, oder?\u00bb" },
+      { start: 65.0, end: 70.0, text: "\u00abJa, steht so im System\u2026 also stand\u00bb, murmele ich. Ich tippe sinnlos auf die Tastatur, der Rechner bleibt schwarz." },
+      { start: 70.0, end: 76.0, text: "Frau Kr\u00fcger taucht in der T\u00fcr auf. \u00abKurzes Update: Es gibt einen lokalen Stromausfall.\u00bb" },
+      { start: 76.0, end: 81.0, text: "\u00abDie Hausverwaltung arbeitet dran. Wir versuchen, so gut es geht weiterzumachen.\u00bb", displayText: "\u00abDie Hausverwaltung arbeitet dran. Wir versuchen, so gut es geht **weiterzumachen**.\u00bb" },
+      { start: 81.0, end: 85.0, text: "Ich nicke. \u00abIch rufe an und mache ihnen klar, dass wir nichts daf\u00fcr k\u00f6nnen.\u00bb", displayText: "Ich nicke. \u00abIch rufe an und **mache** ihnen **klar**, dass wir nichts daf\u00fcr k\u00f6nnen.\u00bb" },
+      { start: 85.0, end: 89.0, text: "\u00abGenau. Bitte freundlich, aber deutlich. Und macht euch nicht verr\u00fcckt, wir bekommen das hin.\u00bb", displayText: "\u00abGenau. Bitte freundlich, aber deutlich. Und macht euch nicht **verr\u00fcckt**, wir bekommen das hin.\u00bb" },
+      { start: 89.0, end: 93.0, text: "Ich hole mein Diensthandy aus der Tasche. Wenigstens das hat Akku." },
+      { start: 93.0, end: 97.0, text: "\u00abWir hatten ja ausgemacht, dass die Ware heute rausgeht\u00bb, sagt er k\u00fchl.", displayText: "\u00abWir hatten ja **ausgemacht**, dass die Ware heute rausgeht\u00bb, sagt er k\u00fchl." },
+      { start: 97.0, end: 103.0, text: "\u00abUnter normalen Umst\u00e4nden h\u00e4tten wir das l\u00e4ngst fertiggemacht. Aber ohne Strom k\u00f6nnen wir nicht kommissionieren.\u00bb", displayText: "\u00abUnter normalen Umst\u00e4nden h\u00e4tten wir das l\u00e4ngst **fertiggemacht**. Aber ohne Strom k\u00f6nnen wir nicht kommissionieren.\u00bb" },
+      { start: 103.0, end: 107.0, text: "\u00abWir k\u00f6nnen gern ausmachen, dass wir morgen fr\u00fch als Erstes liefern.\u00bb", displayText: "\u00abWir k\u00f6nnen gern **ausmachen**, dass wir morgen fr\u00fch als Erstes liefern.\u00bb" },
+      { start: 107.0, end: 113.0, text: "Nach ein paar Telefonaten merke ich, wie die Formulierungen automatisch flie\u00dfen." },
+      { start: 113.0, end: 118.0, text: "Vor zehn Jahren h\u00e4tte mich so eine Situation komplett kirre gemacht.", displayText: "Vor zehn Jahren h\u00e4tte mich so eine Situation komplett **kirre gemacht**." },
+      { start: 118.0, end: 122.0, text: "Heute bin ich gestresst, ja, aber ich stehe nicht mehr v\u00f6llig auf dem Schlauch.", displayText: "Heute bin ich gestresst, ja, aber ich stehe nicht mehr v\u00f6llig **auf dem Schlauch**." },
+      { start: 122.0, end: 127.0, text: "Im Lager ist es weiterhin duster. Mehmet zeigt mir mit der Handy-Taschenlampe den Sicherungskasten.", displayText: "Im Lager ist es weiterhin **duster**. Mehmet zeigt mir mit der Handy-Taschenlampe den Sicherungskasten." },
+      { start: 127.0, end: 132.0, text: "\u00abIch mache mich gleich zu euch auf\u00bb, sagt er. \u00abAber fasst mir blo\u00df nichts an, klar?\u00bb", displayText: "\u00abIch **mache** mich gleich zu euch **auf**\u00bb, sagt er. \u00abAber fasst mir blo\u00df nichts an, klar?\u00bb" },
+      { start: 132.0, end: 137.0, text: "\u00abEr will, dass wir nichts anfassen. Er macht sich gleich zu uns auf.\u00bb", displayText: "\u00abEr will, dass wir nichts anfassen. Er **macht** sich gleich zu uns **auf**.\u00bb" },
+      { start: 137.0, end: 143.0, text: "Schon jetzt stehen Mehmet und ich stramm wie zwei kleine Schuljungen, obwohl sie nichts verbrochen haben." },
+      { start: 143.0, end: 148.0, text: "Typisch unser Hausmeister \u2013 ist immer schlecht gelaunt und muss einen immer gleich bl\u00f6d anmachen.", displayText: "Typisch unser Hausmeister \u2013 ist immer schlecht gelaunt und muss einen immer gleich **bl\u00f6d anmachen**." },
+      { start: 148.0, end: 153.0, text: "Ein paar Minuten sp\u00e4ter geht die T\u00fcr auf und der Hausmeister steht auf der Matte.", displayText: "Ein paar Minuten sp\u00e4ter geht die T\u00fcr auf und der Hausmeister steht **auf der Matte**." },
+      { start: 153.0, end: 159.0, text: "Ohne viele Worte geht er zum Sicherungskasten, macht die Klappe auf und dr\u00fcckt irgendwo entschlossen drauf.", displayText: "Ohne viele Worte geht er zum Sicherungskasten, **macht** die Klappe **auf** und dr\u00fcckt irgendwo entschlossen **drauf**." },
+      { start: 159.0, end: 163.0, text: "Im selben Moment springt wie von Zauberhand das Licht an." },
+      { start: 163.0, end: 167.0, text: "\u00abSo\u00bb, sagt er, \u00abjetzt sehen wir wenigstens wieder was.\u00bb" },
+      { start: 167.0, end: 173.0, text: "\u00abHier haben wohl die Handwerker am Wochenende dran rumgepfuscht. Kein Wunder, dass hier alles im Eimer ist.\u00bb", displayText: "\u00abHier haben wohl die Handwerker am Wochenende dran **rumgepfuscht**. Kein Wunder, dass hier alles **im Eimer** ist.\u00bb" },
+      { start: 173.0, end: 179.0, text: "\u00abIhr k\u00f6nnt wieder weitermachen. Aber bitte nichts auf eigene Faust an der Elektronik machen, ja?\u00bb", displayText: "\u00abIhr k\u00f6nnt wieder **weitermachen**. Aber bitte nichts **auf eigene Faust** an der Elektronik machen, ja?\u00bb" },
+      { start: 179.0, end: 183.0, text: "Wir nicken nur brav und sagen nichts." },
+      { start: 183.0, end: 189.0, text: "Zur\u00fcck im B\u00fcro starte ich sofort den Rechner, checke die E-Mails und tippe eine kurze Info an die wichtigsten Kunden." },
+      { start: 189.0, end: 195.0, text: "Ich versuche, freundlich zu klingen und trotzdem klarzumachen, dass wir wirklich alles tun, um die Verz\u00f6gerung aufzuholen.", displayText: "Ich versuche, freundlich zu klingen und trotzdem **klarzumachen**, dass wir wirklich alles tun, um die Verz\u00f6gerung aufzuholen." },
+      { start: 195.0, end: 201.0, text: "Gegen Mittag l\u00e4uft alles wieder halbwegs rund. Ich habe meinen Kaffee, das Licht funktioniert, die Lkws sind beladen." },
+      { start: 201.0, end: 206.0, text: "Nur mein Kopf f\u00fchlt sich ein bisschen an, als h\u00e4tte ihn jemand kaputtgemacht.", displayText: "Nur mein Kopf f\u00fchlt sich ein bisschen an, als h\u00e4tte ihn jemand **kaputtgemacht**." },
+      { start: 206.0, end: 212.0, text: "Als ich abends zu Hause bin, mache ich die Wohnungst\u00fcr auf, lasse die Tasche fallen und mache das Handy konsequent aus.", displayText: "Als ich abends zu Hause bin, **mache** ich die Wohnungst\u00fcr **auf**, lasse die Tasche fallen und **mache** das Handy konsequent **aus**." },
+      { start: 212.0, end: 216.0, text: "\u00abGenug gemacht heute\u00bb, sage ich laut zu mir selbst.", displayText: "\u00abGenug **gemacht** heute\u00bb, sage ich laut zu mir selbst." },
     ],
   },
   coreVerbs: [
-    { german: "sich auf den Weg machen", english: "to set off / head out", example: "Sie machte sich auf den Weg zur Arbeit." },
-    { german: "jemandem zu schaffen machen", english: "to give someone trouble", example: "Die Hitze macht mir zu schaffen." },
-    { german: "sich Sorgen machen", english: "to worry", example: "Mach dir keine Sorgen!" },
-    { german: "klarmachen", english: "to make clear", example: "Er hat mir klargemacht, was er will." },
-    { german: "das Beste daraus machen", english: "to make the best of it", example: "Wir m\u00fcssen das Beste daraus machen." },
-    { german: "sich fertigmachen", english: "to get ready", example: "Ich mache mich schnell fertig." },
-    { german: "Halt machen", english: "to make a stop", example: "Wir machten Halt an einer Tankstelle." },
-    { german: "Witze machen", english: "to make jokes", example: "Er macht immer Witze \u00fcber alles." },
-    { german: "N\u00e4gel mit K\u00f6pfen machen", english: "to do something properly / take decisive action", example: "Jetzt machen wir N\u00e4gel mit K\u00f6pfen!" },
-    { german: "den Mund aufmachen", english: "to speak up", example: "Mach endlich den Mund auf!" },
-    { german: "gro\u00dfe Augen machen", english: "to be wide-eyed / surprised", example: "Sie machte gro\u00dfe Augen, als sie es h\u00f6rte." },
-    { german: "Sinn machen", english: "to make sense", example: "Das macht keinen Sinn." },
-    { german: "den Anfang machen", english: "to make a start / go first", example: "Wer macht den Anfang?" },
+    { german: "anmachen", english: "to switch on (e.g. light, coffee machine, computer)", example: "Ich will das Licht im B\u00fcro anmachen." },
+    { german: "ausmachen", english: "to agree on / to switch off", example: "Wir haben ausgemacht, dass die Ware heute rausgeht. / Ich mache das Handy aus." },
+    { german: "aufmachen", english: "to open (window, door, panel)", example: "Ich mache erst mal das Fenster weit auf." },
+    { german: "zumachen", english: "to close", example: "Mach bitte die Klappe wieder zu." },
+    { german: "fertigmachen", english: "to finish / complete a task", example: "Die Jungs k\u00f6nnen nichts mehr fertigmachen." },
+    { german: "weitermachen", english: "to continue after an interruption", example: "Wir versuchen, so gut es geht weiterzumachen." },
+    { german: "abmachen", english: "to agree on / arrange (a date, a deal)", example: "Wir hatten doch mit denen abgemacht, dass der Termin fix ist." },
+    { german: "klarmachen", english: "to make clear / explain clearly", example: "Ich mache ihnen klar, dass wir nichts daf\u00fcr k\u00f6nnen." },
+    { german: "kaputtmachen", english: "to exhaust / wear out (coll.); to break", example: "Mein Kopf f\u00fchlt sich an, als h\u00e4tte ihn jemand kaputtgemacht." },
+    { german: "sich (zu jmdm.) aufmachen", english: "to set off toward someone", example: "Ich mache mich gleich zu euch auf." },
+    { german: "jemanden bl\u00f6d anmachen", english: "to talk to someone rudely / aggressively", example: "Er muss einen immer gleich bl\u00f6d anmachen." },
   ],
   idioms: [
-    { german: "unter Strom stehen", english: "to be under pressure / wired", example: "Ich stehe total unter Strom." },
-    { german: "mit K\u00f6pfchen machen", english: "to do something cleverly", example: "Das muss man mit K\u00f6pfchen machen." },
-    { german: "etwas aus dem \u00c4rmel machen", english: "to pull something out of thin air", example: "Er macht das einfach aus dem \u00c4rmel." },
+    { german: "unter Strom stehen", english: "to be very stressed, tense", example: "Ich stehe heute echt unter Strom." },
+    { german: "der Wurm ist drin", english: "something keeps going wrong", example: "Heute ist echt der Wurm drin." },
+    { german: "auf dem Schlauch stehen", english: "to not get it, to be clueless", example: "Ich stehe nicht mehr v\u00f6llig auf dem Schlauch." },
+    { german: "sich / andere nicht verr\u00fcckt machen", english: "to not stress yourself / others out", example: "Macht euch nicht verr\u00fcckt, wir bekommen das hin." },
+    { german: "jemanden kirre machen", english: "to drive someone crazy", example: "H\u00e4tte mich so eine Situation komplett kirre gemacht." },
+    { german: "auf eigene Faust", english: "on one's own, without permission", example: "Bitte nichts auf eigene Faust an der Elektronik machen." },
+    { german: "im Eimer sein", english: "to be broken / kaput", example: "Kein Wunder, dass hier alles im Eimer ist." },
+    { german: "an etwas rumpfuschen", english: "to tinker unprofessionally / botch something", example: "Die Handwerker haben am Wochenende dran rumgepfuscht." },
+    { german: "bei jemandem auf der Matte stehen", english: "to show up at someone's door unannounced", example: "Der Hausmeister steht auf der Matte." },
+    { german: "kommissionieren", english: "to pick and pack orders in a warehouse", example: "Ohne Strom k\u00f6nnen wir nicht kommissionieren." },
+    { german: "eine Verz\u00f6gerung aufholen", english: "to make up for a delay", example: "Wir tun alles, um die Verz\u00f6gerung aufzuholen." },
+    { german: "stramm stehen", english: "to stand at attention (out of respect/fear)", example: "Mehmet und ich stehen stramm wie zwei kleine Schuljungen." },
+    { german: "duster", english: "very dark (colloquial)", example: "Im Lager ist es weiterhin duster." },
+    { german: "lokaler Stromausfall", english: "local power outage", example: "Es gibt einen lokalen Stromausfall." },
   ],
   exercises: [
+    // --- LESEN ---
     {
       id: "m1-mc-1",
       type: "multiple-choice",
@@ -85,32 +177,52 @@ const module1: CourseModule = {
       instruction: "Beantworte die Fragen zur Geschichte.",
       questions: [
         {
-          question: "Warum machte Lena sich nicht auf den Weg?",
+          question: "Warum funktioniert am Montagmorgen nichts im B\u00fcro?",
           options: [
-            "Die Ampel war rot.",
-            "Irgendetwas machte ihr zu schaffen.",
-            "Sie hatte keinen Kaffee.",
-            "Sie wollte zu Hause bleiben.",
+            "Der Computer ist kaputt.",
+            "Es gibt einen lokalen Stromausfall.",
+            "Die Kaffeemaschine ist defekt.",
+            "Mehmet hat den Strom abgestellt.",
           ],
           correctIndex: 1,
         },
         {
-          question: "Was sagte der Chef um 14 Uhr?",
+          question: "Was hatten Alex und der Kunde letzte Woche ausgemacht?",
           options: [
-            "Es gibt Entlassungen.",
-            "Alle sollen nach Hause gehen.",
-            "Wir machen einen Neuanfang.",
-            "Das B\u00fcro wird geschlossen.",
+            "Dass der Kunde ins B\u00fcro kommt.",
+            "Dass die Lieferung am Montag rausgeht.",
+            "Dass die Bestellung storniert wird.",
+            "Dass der Preis gesenkt wird.",
           ],
-          correctIndex: 2,
+          correctIndex: 1,
         },
         {
-          question: "Was bedeutet \u00abN\u00e4gel mit K\u00f6pfen machen\u00bb?",
+          question: "Was sagt Jule, als sie den Lichtschalter dr\u00fcckt?",
           options: [
-            "Handwerklich arbeiten",
-            "Etwas richtig und entschlossen anpacken",
-            "Sich beschweren",
-            "Vorsichtig sein",
+            "\u00abDas ist doch nicht m\u00f6glich!\u00bb",
+            "\u00abHeute ist echt der Wurm drin.\u00bb",
+            "\u00abIch stehe unter Strom.\u00bb",
+            "\u00abDas muss der Hausmeister reparieren.\u00bb",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "Wer repariert am Ende den Strom?",
+          options: [
+            "Mehmet",
+            "Alex",
+            "Frau Kr\u00fcger",
+            "Der Hausmeister",
+          ],
+          correctIndex: 3,
+        },
+        {
+          question: "Was macht Alex abends zu Hause als Erstes?",
+          options: [
+            "Er macht den Fernseher an.",
+            "Er macht die Wohnungst\u00fcr auf und das Handy aus.",
+            "Er ruft einen Kunden an.",
+            "Er macht sich etwas zu essen.",
           ],
           correctIndex: 1,
         },
@@ -122,55 +234,85 @@ const module1: CourseModule = {
       skill: "lesen",
       instruction: "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
       statements: [
-        { statement: "Lena machte sich sofort auf den Weg.", correct: false },
-        { statement: "Der Kaffee machte Lena wach.", correct: true },
-        { statement: "Der Chef k\u00fcndigte Entlassungen an.", correct: false },
-        { statement: "Lena meldete sich als Erste f\u00fcr die neuen Projekte.", correct: true },
+        { statement: "Am Montagmorgen funktioniert das Licht im B\u00fcro sofort.", correct: false },
+        { statement: "Mehmet sagt, er steht unter Strom.", correct: true },
+        { statement: "Die Lieferung sollte um neun Uhr rausgehen.", correct: true },
+        { statement: "Frau Kr\u00fcger sagt, alle sollen nach Hause gehen.", correct: false },
+        { statement: "Der Hausmeister findet heraus, dass Handwerker am Wochenende am Sicherungskasten gepfuscht haben.", correct: true },
+        { statement: "Alex konnte die Kunden nicht erreichen, weil sein Handy keinen Akku hatte.", correct: false },
+        { statement: "Alex macht abends sein Handy konsequent aus.", correct: true },
       ],
     },
+    // --- H\u00d6REN ---
     {
       id: "m1-gf-1",
       type: "gap-fill",
       skill: "hoeren",
-      instruction: "Erg\u00e4nze die S\u00e4tze mit dem richtigen Ausdruck mit \u00abmachen\u00bb.",
+      instruction: "Erg\u00e4nze die S\u00e4tze mit dem richtigen Verb mit \u00abmachen\u00bb.",
       sentences: [
-        { text: "Die Situation ___ ihr zu schaffen.", answer: "machte" },
-        { text: "Er hat mir ___, was er erwartet.", answer: "klargemacht" },
-        { text: "Im B\u00fcro ___ sich Unruhe breit.", answer: "machte" },
-        { text: "Wir m\u00fcssen das ___ daraus machen.", answer: "Beste" },
-        { text: "Sie ___ gro\u00dfe Augen.", answer: "machte" },
+        { text: "Ich will das Licht im B\u00fcro ___, aber es passiert nichts.", answer: "anmachen" },
+        { text: "Ich mache erst mal das Fenster weit ___.", answer: "auf" },
+        { text: "Die Jungs k\u00f6nnen nichts mehr ___.", answer: "fertigmachen" },
+        { text: "Mit dem Kunden haben wir letzte Woche ___, dass heute alles auf dem Lkw ist.", answer: "ausgemacht" },
+        { text: "Wir versuchen, so gut es geht ___.", answer: "weiterzumachen" },
+        { text: "Ich mache ihnen ___, dass wir nichts daf\u00fcr k\u00f6nnen.", answer: "klar" },
+        { text: "Mein Kopf f\u00fchlt sich an, als h\u00e4tte ihn jemand ___.", answer: "kaputtgemacht" },
+        { text: "Abends mache ich das Handy konsequent ___.", answer: "aus" },
       ],
     },
     {
       id: "m1-match-1",
       type: "matching",
       skill: "hoeren",
-      instruction: "Verbinde die Redewendungen mit den richtigen Bedeutungen.",
+      instruction: "Verbinde die Redewendungen mit den passenden Erkl\u00e4rungen.",
       pairs: [
-        { left: "sich auf den Weg machen", right: "losgehen" },
-        { left: "Halt machen", right: "anhalten / stoppen" },
-        { left: "den Mund aufmachen", right: "etwas sagen" },
-        { left: "gro\u00dfe Augen machen", right: "\u00fcberrascht sein" },
-        { left: "Sinn machen", right: "logisch sein" },
+        { left: "unter Strom stehen", right: "sehr gestresst und angespannt sein" },
+        { left: "der Wurm ist drin", right: "es geht vieles schief" },
+        { left: "auf dem Schlauch stehen", right: "etwas nicht verstehen / nicht kapieren" },
+        { left: "jemanden kirre machen", right: "jemanden nervlich fertig machen" },
+        { left: "auf eigene Faust", right: "allein, ohne Erlaubnis" },
+        { left: "im Eimer sein", right: "kaputt, nicht mehr funktionsf\u00e4hig" },
+        { left: "auf der Matte stehen", right: "pl\u00f6tzlich vor der T\u00fcr stehen" },
+        { left: "an etwas rumpfuschen", right: "unsauber / unprofessionell arbeiten" },
       ],
     },
+    // --- SPRECHEN ---
     {
       id: "m1-speak-1",
       type: "speaking",
       skill: "sprechen",
-      prompt: "Erz\u00e4hle in 3\u20134 S\u00e4tzen: Was passiert in der Geschichte? Benutze mindestens 3 Ausdr\u00fccke mit \u00abmachen\u00bb.",
-      mustUseWords: ["sich Sorgen machen", "klarmachen", "den Anfang machen"],
+      prompt: "Erz\u00e4hle in 4\u20135 S\u00e4tzen: Was passiert in der Geschichte \u00abUnter Strom\u00bb? Benutze mindestens 4 Verben/Ausdr\u00fccke mit \u00abmachen\u00bb aus dem Modul.",
+      mustUseWords: ["anmachen", "fertigmachen", "ausmachen", "weitermachen"],
       instruction: "Sprich laut und nimm dich auf. Benutze die Pflicht-Ausdr\u00fccke.",
-      modelAnswer: "Lena machte sich Sorgen um ihre Arbeit. Der Chef hatte ihr klargemacht, dass es Ver\u00e4nderungen geben w\u00fcrde. Am Ende gab es gute Nachrichten und Lena machte den Anfang bei den neuen Projekten.",
+      modelAnswer: "Am Montagmorgen will Alex das Licht anmachen, aber es gibt keinen Strom. Die Kollegen k\u00f6nnen im Lager nichts fertigmachen. Alex ruft die Kunden an und macht neue Liefertermine aus. Nachdem der Hausmeister den Strom repariert hat, k\u00f6nnen alle weitermachen.",
     },
+    {
+      id: "m1-speak-2",
+      type: "speaking",
+      skill: "sprechen",
+      prompt: "Beschreibe eine stressige Situation bei der Arbeit oder in der Schule. Benutze mindestens 3 Redewendungen aus Tabelle 2.",
+      mustUseWords: ["unter Strom stehen", "der Wurm ist drin", "sich nicht verr\u00fcckt machen"],
+      instruction: "Sprich frei und verwende die Redewendungen in ganzen S\u00e4tzen.",
+      modelAnswer: "Letzte Woche stand ich total unter Strom, weil wir eine wichtige Pr\u00e4sentation hatten. Am Morgen war der Wurm drin \u2013 erst hatte ich verschlafen, dann war mein Laptop leer. Mein Kollege hat gesagt, ich soll mich nicht verr\u00fcckt machen, und am Ende hat alles geklappt.",
+    },
+    // --- SCHREIBEN ---
     {
       id: "m1-write-1",
       type: "open-writing",
       skill: "schreiben",
-      prompt: "Schreibe einen kurzen Absatz (5\u20136 S\u00e4tze) \u00fcber einen stressigen Tag bei der Arbeit. Benutze mindestens 4 Ausdr\u00fccke mit \u00abmachen\u00bb.",
-      mustUseWords: ["sich fertigmachen", "sich auf den Weg machen", "zu schaffen machen", "das Beste daraus machen"],
+      prompt: "Schreibe einen kurzen Absatz (5\u20137 S\u00e4tze) \u00fcber einen chaotischen Tag bei der Arbeit oder zu Hause. Benutze mindestens 5 Verben mit \u00abmachen\u00bb aus Tabelle 1.",
+      mustUseWords: ["anmachen", "aufmachen", "fertigmachen", "ausmachen", "kaputtmachen"],
       instruction: "Schreibe deinen Text unten. Benutze die Pflicht-Ausdr\u00fccke.",
-      modelAnswer: "Heute war ein stressiger Tag. Ich habe mich fr\u00fch fertiggemacht und mich um 7 Uhr auf den Weg gemacht. Die viele Arbeit hat mir zu schaffen gemacht. Mein Kollege hat Witze gemacht, um die Stimmung zu verbessern. Am Ende haben wir das Beste daraus gemacht und alle Aufgaben geschafft.",
+      modelAnswer: "Heute Morgen wollte ich den Computer anmachen, aber er ging nicht. Ich habe das Fenster aufgemacht, um frische Luft reinzulassen. Die Kollegen konnten ihre Arbeit nicht fertigmachen, weil der Strom weg war. Sp\u00e4ter haben wir mit dem Chef einen neuen Termin ausgemacht. Am Abend war ich so m\u00fcde \u2013 der Tag hat mich total kaputtgemacht.",
+    },
+    {
+      id: "m1-write-2",
+      type: "open-writing",
+      skill: "schreiben",
+      prompt: "Schreibe 4\u20135 S\u00e4tze aus der Perspektive des Hausmeisters. Was denkt er, als er zum B\u00fcro kommt? Benutze mindestens 3 Redewendungen aus Tabelle 2.",
+      mustUseWords: ["rumpfuschen", "im Eimer sein", "auf eigene Faust"],
+      instruction: "Schreibe deinen Text unten. Benutze die Pflicht-Ausdr\u00fccke.",
+      modelAnswer: "Ich fahre zum B\u00fcro und sehe schon an den Gesichtern, dass alles im Eimer ist. Die Handwerker haben am Wochenende wieder an der Elektronik rumgepfuscht. Kein Wunder, dass nichts mehr funktioniert. Ich hoffe nur, dass niemand auf eigene Faust versucht hat, den Kasten zu \u00f6ffnen.",
     },
   ],
   reviewItems: [],
