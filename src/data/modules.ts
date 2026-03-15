@@ -1572,6 +1572,32 @@ const module2: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Letzte Woche hatten wir eine Geburtstagsüberraschung für Jule geplant. Alle sollten etwas mitbringen. Ben hat versucht, Jule zum Lachen zu bringen, während wir alles vorbereitet haben. Am Ende hat Jule gesagt, wir sollen es auf den Punkt bringen und einfach feiern. Und wir haben alles in Ordnung gebracht."
+    },
+    {
+      "id": "m2-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe eine Situation, in der du jemandem eine Überraschung bereitet hast. Benutze mindestens 3 Redewendungen mit «bringen».",
+      "mustUseWords": [
+        "auf den Punkt bringen",
+        "in Ordnung bringen",
+        "zum Lachen bringen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzte Woche wollte ich meiner Freundin eine Überraschung bereiten. Ich habe versucht, sie zum Lachen zu bringen, während ich alles vorbereitete. Am Ende sagte sie: Bring es auf den Punkt, was gibt es? Ich musste noch ein paar Dinge in Ordnung bringen, aber es hat geklappt."
+    },
+    {
+      "id": "m2-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze aus Jules Perspektive über ihren Geburtstag im Büro. Benutze mindestens 3 Ausdrücke mit «bringen».",
+      "mustUseWords": [
+        "beibringen",
+        "durcheinanderbringen",
+        "rüberbringen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Die Kollegen wollten mir etwas Liebes beibringen, das war wirklich süß. Erst hat mich die ganze Aufregung etwas durcheinandergebracht. Aber die Botschaft haben sie gut rübergebracht: Wir schätzen dich. Das war das schönste Geburtstagsgeschenk."
     }
   ],
   "reviewItems": []
@@ -2480,6 +2506,34 @@ const module3: CourseModule = {
       ]
     },
     {
+      "id": "m3-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Alex organisiert den Spieleabend.",
+          "correct": true
+        },
+        {
+          "statement": "Niemand bringt etwas zum Essen mit.",
+          "correct": false
+        },
+        {
+          "statement": "Ben nimmt sich kein Blatt vor den Mund.",
+          "correct": true
+        },
+        {
+          "statement": "Das Kochen geht schneller als geplant.",
+          "correct": false
+        },
+        {
+          "statement": "Am Ende ist der Abend ein Selbstläufer.",
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "m3-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -2565,6 +2619,32 @@ const module3: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Ich habe mir vorgenommen, einen Kochabend zu organisieren. Alle sollten eine Zutat mitnehmen. Ben hat angenommen, dass ich alles plane, aber Jule hat das Dessert übernommen. Am Ende war der Abend perfekt."
+    },
+    {
+      "id": "m3-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe einen Abend, an dem etwas mehr Zeit in Anspruch genommen hat als geplant. Benutze mindestens 3 Redewendungen mit «nehmen».",
+      "mustUseWords": [
+        "in Anspruch nehmen",
+        "auf den Arm nehmen",
+        "Rücksicht nehmen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzte Woche hat das Kochen viel mehr Zeit in Anspruch genommen als gedacht. Mein Freund hat mich deswegen auf den Arm genommen. Aber er hat auch Rücksicht genommen und mir beim Abwasch geholfen."
+    },
+    {
+      "id": "m3-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über die Planung eines Abends mit Freunden. Benutze mindestens 3 Ausdrücke mit «nehmen».",
+      "mustUseWords": [
+        "vornehmen",
+        "in Kauf nehmen",
+        "übernehmen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Ich hatte mir vorgenommen, einen Kochabend zu veranstalten. Dass es teurer wird als geplant, habe ich in Kauf genommen. Jule hat freiwillig das Dessert übernommen, und am Ende waren alle begeistert."
     }
   ],
   "reviewItems": []
@@ -3258,6 +3338,34 @@ const module4: CourseModule = {
       ]
     },
     {
+      "id": "m4-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Zwei Europaletten stehen vor der Bürotür.",
+          "correct": true
+        },
+        {
+          "statement": "Alex hat den Hubwagen selbst abgestellt.",
+          "correct": false
+        },
+        {
+          "statement": "Die Firma hat neue Leute eingestellt.",
+          "correct": true
+        },
+        {
+          "statement": "Die Monteure haben sich vorher angekündigt.",
+          "correct": false
+        },
+        {
+          "statement": "Am Ende wird das Problem gelöst.",
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "m4-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -3339,6 +3447,32 @@ const module4: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Heute Morgen habe ich festgestellt, dass vor dem Büro ein Transporter abgestellt wurde. Die Monteure haben alles einfach vor die Tür hingestellt. Ich musste sicherstellen, dass wir trotzdem arbeiten konnten."
+    },
+    {
+      "id": "m4-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe eine Situation, in der du jemanden vor vollendete Tatsachen gestellt hast oder gestellt wurdest. Benutze «stellen»-Redewendungen.",
+      "mustUseWords": [
+        "vor vollendete Tatsachen stellen",
+        "feststellen",
+        "sicherstellen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Einmal hat mein Chef mich vor vollendete Tatsachen gestellt: Wir ziehen nächste Woche um. Ich habe festgestellt, dass nichts vorbereitet war. Ich musste sicherstellen, dass alles rechtzeitig fertig wurde."
+    },
+    {
+      "id": "m4-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze aus der Perspektive eines Monteurs. Benutze mindestens 3 Ausdrücke mit «stellen».",
+      "mustUseWords": [
+        "aufstellen",
+        "einstellen",
+        "die Weichen stellen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Heute mussten wir im Büro neue Regale aufstellen. Die Firma hat mich erst letzte Woche eingestellt. Mit dieser Lieferung stellen wir die Weichen für die neue Büroausstattung."
     }
   ],
   "reviewItems": []
@@ -4064,6 +4198,34 @@ const module5: CourseModule = {
       ]
     },
     {
+      "id": "m5-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Alex und Ben treffen sich im Café.",
+          "correct": true
+        },
+        {
+          "statement": "Ben schaut auf sein Smartphone, als Alex ankommt.",
+          "correct": true
+        },
+        {
+          "statement": "Alex versteht sofort, worum es geht.",
+          "correct": false
+        },
+        {
+          "statement": "Eine schwierige Entscheidung steht bevor.",
+          "correct": true
+        },
+        {
+          "statement": "Am Ende stehen beide auf dem Schlauch.",
+          "correct": false
+        }
+      ]
+    },
+    {
       "id": "m5-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -4145,6 +4307,32 @@ const module5: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Als ich ins Café kam, musste ich erst anstehen. Ben war schon da und wir haben über die Arbeit geredet. Eine unangenehme Frage stand im Raum, aber Ben hat gesagt, man muss einfach drüberstehen. Ich habe sofort verstanden, was er meinte."
+    },
+    {
+      "id": "m5-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Erzähle von einer Situation, in der du auf dem Schlauch standest. Benutze mindestens 3 «stehen»-Redewendungen.",
+      "mustUseWords": [
+        "auf dem Schlauch stehen",
+        "im Raum stehen",
+        "bevorstehen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzte Woche stand ich total auf dem Schlauch, als mein Freund mir etwas erklären wollte. Eine wichtige Entscheidung stand im Raum. Mir war klar, dass eine Veränderung bevorstand."
+    },
+    {
+      "id": "m5-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über ein Gespräch unter Freunden. Benutze mindestens 3 Ausdrücke mit «stehen».",
+      "mustUseWords": [
+        "drüberstehen",
+        "Rede und Antwort stehen",
+        "zugestehen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Ben und ich saßen im Café und er musste mir Rede und Antwort stehen. Ich musste ihm zugestehen, dass er recht hatte. Am Ende sagte Ben, man muss einfach drüberstehen und nach vorne schauen."
     }
   ],
   "reviewItems": []
@@ -4742,6 +4930,34 @@ const module6: CourseModule = {
       ]
     },
     {
+      "id": "m6-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Das Büro riecht nach frischem Kaffee.",
+          "correct": true
+        },
+        {
+          "statement": "Es regnet am Dienstagmorgen.",
+          "correct": false
+        },
+        {
+          "statement": "Alex übergibt Aufgaben an Jule.",
+          "correct": true
+        },
+        {
+          "statement": "Frau Krüger gibt den Ton an.",
+          "correct": true
+        },
+        {
+          "statement": "Am Ende gibt Alex auf.",
+          "correct": false
+        }
+      ]
+    },
+    {
       "id": "m6-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -4823,6 +5039,32 @@ const module6: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Am Freitag musste ich alle meine Projekte übergeben. Ich habe die Berichte pünktlich abgegeben. Mein Kollege wollte die Verantwortung nicht übernehmen, aber am Ende hat er nachgegeben. Ich muss zugeben, dass ich erleichtert war."
+    },
+    {
+      "id": "m6-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Erzähle von einer Situation, in der du eine Aufgabe übergeben oder übernommen hast. Benutze «geben»-Redewendungen.",
+      "mustUseWords": [
+        "den Ton angeben",
+        "Gas geben",
+        "zugeben"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "In meinem alten Job hat die Chefin immer den Ton angegeben. Wenn es stressig wurde, mussten wir alle Gas geben. Ich muss zugeben, dass es manchmal sehr schwierig war."
+    },
+    {
+      "id": "m6-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über einen geschäftigen Tag. Benutze mindestens 3 Redewendungen mit «geben».",
+      "mustUseWords": [
+        "sich die Klinke in die Hand geben",
+        "aufgeben",
+        "nachgeben"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Heute geben sich die Kunden die Klinke in die Hand. Obwohl der Tag stressig ist, will ich nicht aufgeben. Mein Kollege wollte Pause machen, aber er gibt nach, als er sieht, wie viel noch zu tun ist."
     }
   ],
   "reviewItems": []
@@ -5415,6 +5657,34 @@ const module7: CourseModule = {
       ]
     },
     {
+      "id": "m7-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Alex will am Samstagabend spazieren gehen.",
+          "correct": true
+        },
+        {
+          "statement": "Die Woche im Büro war entspannt.",
+          "correct": false
+        },
+        {
+          "statement": "Jule setzt sich am Ende durch.",
+          "correct": true
+        },
+        {
+          "statement": "Niemand legt Wert auf Erholung.",
+          "correct": false
+        },
+        {
+          "statement": "Die Arbeit setzt Alex ganz schön zu.",
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "m7-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -5496,6 +5766,32 @@ const module7: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Am Samstagabend bin ich spazieren gegangen und habe mich auf eine Bank hingesetzt. Neben mir saß jemand, und wir haben angefangen zu reden. Wir haben das Gespräch lange fortgesetzt. Er hat mir erzählt, wie er seine Ideen im Job umsetzt und sich dabei immer durchsetzt."
+    },
+    {
+      "id": "m7-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe eine Situation, in der du dich in die Nesseln gesetzt hast. Benutze «setzen»-Redewendungen.",
+      "mustUseWords": [
+        "sich in die Nesseln setzen",
+        "fortsetzen",
+        "voraussetzen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Einmal habe ich mich ganz schön in die Nesseln gesetzt, als ich im Meeting einen Fehler machte. Das setzte voraus, dass ich mich sofort entschuldigte. Danach konnte ich die Arbeit ohne Probleme fortsetzen."
+    },
+    {
+      "id": "m7-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über ein Wochenende mit einem sozialen Treffen. Benutze mindestens 3 «setzen»-Ausdrücke.",
+      "mustUseWords": [
+        "sich hinsetzen",
+        "alles auf eine Karte setzen",
+        "übersetzen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Am Samstag habe ich mich auf eine Parkbank hingesetzt. Neben mir saß ein Tourist und ich habe ihm etwas übersetzt. Er hat alles auf eine Karte gesetzt und einen Neuanfang in Deutschland gewagt."
     }
   ],
   "reviewItems": []
@@ -6188,6 +6484,34 @@ const module8: CourseModule = {
       ]
     },
     {
+      "id": "m8-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Die Geschichte spielt auf einer Messe.",
+          "correct": true
+        },
+        {
+          "statement": "Die Menschen tragen Stofftaschen.",
+          "correct": true
+        },
+        {
+          "statement": "Das Team legt sich nicht richtig ins Zeug.",
+          "correct": false
+        },
+        {
+          "statement": "Der Messetermin wurde kurzfristig festgelegt.",
+          "correct": false
+        },
+        {
+          "statement": "Am Stand werden Broschüren ausgelegt.",
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "m8-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -6269,6 +6593,32 @@ const module8: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Die Messe steht vor der Tür und wir haben alles bereitgelegt. Der Termin war schon vor Wochen festgelegt. Am Stand haben wir Flyer und Broschüren ausgelegt. Den fertigen Messebericht lege ich nächste Woche vor."
+    },
+    {
+      "id": "m8-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Erzähle von einer Situation, in der du dich richtig ins Zeug legen musstest. Benutze «legen»-Redewendungen.",
+      "mustUseWords": [
+        "sich ins Zeug legen",
+        "nahelegen",
+        "festlegen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzte Woche war eine wichtige Präsentation und ich musste mich richtig ins Zeug legen. Mein Chef hat mir nahegelegt, alles doppelt zu prüfen. Den Termin hatte er schon Wochen vorher festgelegt."
+    },
+    {
+      "id": "m8-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über die Vorbereitung auf ein wichtiges Event. Benutze mindestens 3 Redewendungen mit «legen».",
+      "mustUseWords": [
+        "bereitlegen",
+        "den Finger in die Wunde legen",
+        "sich hinlegen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Am Abend vor der Messe habe ich alles bereitgelegt. Mein Kollege hat den Finger in die Wunde gelegt und gesagt, dass unsere Broschüren veraltet sind. Nach dem ganzen Stress wollte ich mich nur noch hinlegen."
     }
   ],
   "reviewItems": []
@@ -6909,6 +7259,34 @@ const module9: CourseModule = {
       ]
     },
     {
+      "id": "m9-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Die Geschichte spielt am Freitagnachmittag.",
+          "correct": true
+        },
+        {
+          "statement": "Alex will am Wochenende arbeiten.",
+          "correct": false
+        },
+        {
+          "statement": "Kurz vor Feierabend kommt eine dringende E-Mail.",
+          "correct": true
+        },
+        {
+          "statement": "Die Freizeit kommt bei Alex nicht zu kurz.",
+          "correct": false
+        },
+        {
+          "statement": "Alex will endlich runterkommen.",
+          "correct": true
+        }
+      ]
+    },
+    {
       "id": "m9-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -6990,6 +7368,32 @@ const module9: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Am Freitag bin ich im Büro angekommen und hatte schon zehn E-Mails. Dann kam noch ein Meeting dazu. Die Mittagspause kam wie immer zu kurz. Am Abend wollte ich nur noch runterkommen."
+    },
+    {
+      "id": "m9-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe, wie du auf den Geschmack für ein neues Hobby gekommen bist. Benutze «kommen»-Redewendungen.",
+      "mustUseWords": [
+        "auf den Geschmack kommen",
+        "mitkommen",
+        "rauskommen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letztes Jahr bin ich auf den Geschmack gekommen, regelmäßig zu joggen. Ein Freund hat gefragt, ob ich mitkommen will. Am Ende ist dabei rausgekommen, dass ich jetzt dreimal pro Woche laufe."
+    },
+    {
+      "id": "m9-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über einen typischen Freitagabend. Benutze mindestens 3 «kommen»-Redewendungen.",
+      "mustUseWords": [
+        "runterkommen",
+        "auf keinen grünen Zweig kommen",
+        "entgegenkommen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Am Freitagabend will ich endlich runterkommen. Mit dem Haushalt komme ich unter der Woche auf keinen grünen Zweig. Mein Partner kommt mir entgegen und übernimmt das Kochen am Wochenende."
     }
   ],
   "reviewItems": []
@@ -7114,6 +7518,34 @@ const module10: CourseModule = {
       ]
     },
     {
+      "id": "m10-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Alex steht in der Straßenbahn.",
+          "correct": true
+        },
+        {
+          "statement": "Ein Lieferwagen steht im Gleisbereich.",
+          "correct": true
+        },
+        {
+          "statement": "Alex kann sich leicht zurückhalten.",
+          "correct": false
+        },
+        {
+          "statement": "Der Fahrer hält an, weil der Weg blockiert ist.",
+          "correct": true
+        },
+        {
+          "statement": "Alle Fahrgäste bleiben entspannt.",
+          "correct": false
+        }
+      ]
+    },
+    {
       "id": "m10-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -7195,6 +7627,32 @@ const module10: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Der Bus hat plötzlich angehalten. Ein Lieferwagen hat den ganzen Verkehr aufgehalten. Die Fahrgäste mussten die Nerven behalten. Die Hitze im Bus war kaum auszuhalten."
+    },
+    {
+      "id": "m10-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Erzähle von einer Situation im öffentlichen Verkehr, die deine Geduld auf die Probe stellte. Benutze «halten»-Redewendungen.",
+      "mustUseWords": [
+        "aushalten",
+        "einhalten",
+        "den Rücken freihalten"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzte Woche war der Bus so voll, dass es kaum auszuhalten war. Trotzdem musste ich meinen Termin einhalten. Mein Kollege hat mir den Rücken freigehalten und die Kunden informiert."
+    },
+    {
+      "id": "m10-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über eine Situation, in der du die Nerven behalten musstest. Benutze mindestens 3 «halten»-Redewendungen.",
+      "mustUseWords": [
+        "die Nerven behalten",
+        "festhalten",
+        "dagegenhalten"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "In einer stressigen Besprechung musste ich die Nerven behalten. Mein Chef hat an seiner Meinung festgehalten, obwohl sie falsch war. Ich musste dagegenhalten und ihm klar erklären, warum sein Plan nicht funktioniert."
     }
   ],
   "reviewItems": []
@@ -7698,6 +8156,34 @@ const module11: CourseModule = {
       ]
     },
     {
+      "id": "m11-tf-1",
+      "type": "true-false",
+      "skill": "lesen",
+      "instruction": "Richtig oder falsch? Entscheide basierend auf der Geschichte.",
+      "statements": [
+        {
+          "statement": "Die Geschichte spielt am Mittwochabend.",
+          "correct": true
+        },
+        {
+          "statement": "Alex würde normalerweise direkt nach Hause fahren.",
+          "correct": true
+        },
+        {
+          "statement": "Die Firma nimmt an einer Fitness-Challenge teil.",
+          "correct": true
+        },
+        {
+          "statement": "Die Zeit im Studio vergeht langsam.",
+          "correct": false
+        },
+        {
+          "statement": "Alex bereut den Besuch im Studio.",
+          "correct": false
+        }
+      ]
+    },
+    {
       "id": "m11-gf-1",
       "type": "gap-fill",
       "skill": "hoeren",
@@ -7779,6 +8265,32 @@ const module11: CourseModule = {
       ],
       "instruction": "Schreibe deinen Text unten.",
       "modelAnswer": "Am Mittwoch bin ich nach der Arbeit direkt ins Fitnessstudio losgegangen. Im Kurs ist es richtig abgegangen. Ich wollte mein Fitnessproblem endlich angehen. Die Zeit ist vergangen wie im Flug und am Ende fühlte ich mich großartig."
+    },
+    {
+      "id": "m11-speak-2",
+      "type": "speaking",
+      "skill": "sprechen",
+      "prompt": "Beschreibe, warum du eine neue sportliche Aktivität ausprobiert hast. Benutze «gehen»-Redewendungen.",
+      "mustUseWords": [
+        "einen Schritt weitergehen",
+        "in sich gehen",
+        "eingehen"
+      ],
+      "instruction": "Sprich frei und verwende die Redewendungen.",
+      "modelAnswer": "Letzten Monat bin ich in mich gegangen und habe gemerkt, dass ich mehr Sport brauche. Ich bin auf das Angebot meines Kollegen eingegangen und bin mitgekommen. Jetzt will ich einen Schritt weitergehen und mich für einen Lauf anmelden."
+    },
+    {
+      "id": "m11-write-2",
+      "type": "open-writing",
+      "skill": "schreiben",
+      "prompt": "Schreibe 4–5 Sätze über einen Abend im Fitnessstudio. Benutze mindestens 3 «gehen»-Redewendungen.",
+      "mustUseWords": [
+        "das geht gar nicht",
+        "übergehen",
+        "mitgehen"
+      ],
+      "instruction": "Schreibe deinen Text unten.",
+      "modelAnswer": "Im Fitnessstudio ging die Energie der Gruppe total mit. Der Trainer wollte keine Pause machen – das geht eigentlich gar nicht! Aber er ist schnell zur nächsten Übung übergegangen und am Ende haben sich alle großartig gefühlt."
     }
   ],
   "reviewItems": []

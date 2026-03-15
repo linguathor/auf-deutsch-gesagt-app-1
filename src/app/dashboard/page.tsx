@@ -7,12 +7,14 @@ import ModuleCard from "@/components/ModuleCard";
 import { useAuthStore } from "@/store/auth";
 import { useProgressStore } from "@/store/progress";
 import allModules from "@/data/modules";
-import { Sparkles, TrendingUp, Bell, Mail } from "lucide-react";
+import { Sparkles, TrendingUp, Bell, Mail, Shield } from "lucide-react";
 
 export default function DashboardPage() {
   const { user, isAuthenticated } = useAuthStore();
   const getCompletionPercent = useProgressStore((s) => s.getCompletionPercent);
   const progress = useProgressStore((s) => s.progress);
+  const adminMode = useProgressStore((s) => s.adminMode);
+  const toggleAdminMode = useProgressStore((s) => s.toggleAdminMode);
   const router = useRouter();
   const [reminderEnabled, setReminderEnabled] = useState(false);
 
@@ -122,6 +124,40 @@ export default function DashboardPage() {
           {reminderEnabled && (
             <p className="text-xs text-emerald-400 mt-3 flex items-center gap-1">
               <Bell className="w-3 h-3" /> Erinnerungen aktiviert (kommt bald per E-Mail!)
+            </p>
+          )}
+        </div>
+
+        {/* Admin mode toggle */}
+        <div className="bg-card rounded-xl border border-border p-5 mb-8">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className={`w-9 h-9 rounded-lg flex items-center justify-center ${
+                adminMode ? "bg-coral-500/20" : "bg-navy-700"
+              }`}>
+                <Shield className={`w-4 h-4 ${adminMode ? "text-coral-400" : "text-muted"}`} />
+              </div>
+              <div>
+                <h3 className="text-sm font-medium text-foreground">Admin-Modus</h3>
+                <p className="text-xs text-muted">Alle Module freischalten, ohne vorherige abzuschließen.</p>
+              </div>
+            </div>
+            <button
+              onClick={toggleAdminMode}
+              className={`relative w-11 h-6 rounded-full transition-colors ${
+                adminMode ? "bg-coral-500" : "bg-navy-600"
+              }`}
+            >
+              <span
+                className={`absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white transition-transform ${
+                  adminMode ? "translate-x-5" : ""
+                }`}
+              />
+            </button>
+          </div>
+          {adminMode && (
+            <p className="text-xs text-coral-400 mt-3 flex items-center gap-1">
+              <Shield className="w-3 h-3" /> Alle Module sind freigeschaltet.
             </p>
           )}
         </div>

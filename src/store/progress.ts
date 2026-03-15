@@ -17,6 +17,8 @@ function emptySections(): SectionProgress {
 
 interface ProgressStore {
   progress: UserProgress;
+  adminMode: boolean;
+  toggleAdminMode: () => void;
   initProgress: (userId: string) => void;
   getModuleProgress: (moduleId: number) => ModuleProgress;
   isModuleUnlocked: (moduleId: number) => boolean;
@@ -24,6 +26,9 @@ interface ProgressStore {
   markVocabularyDone: (moduleId: number) => void;
   markExerciseDone: (moduleId: number, skill: keyof SectionProgress["exercises"]) => void;
   markModuleComplete: (moduleId: number) => void;
+  toggleStoryDone: (moduleId: number) => void;
+  toggleVocabularyDone: (moduleId: number) => void;
+  toggleExerciseSkillDone: (moduleId: number, skill: keyof SectionProgress["exercises"]) => void;
   setCurrentModule: (moduleId: number) => void;
   saveExerciseAnswer: (moduleId: number, exerciseId: string, answer: unknown) => void;
   getCompletionPercent: () => number;
@@ -38,6 +43,12 @@ export const useProgressStore = create<ProgressStore>()(
         modules: {},
         currentModule: 1,
         flashcardsDue: [],
+      },
+
+      adminMode: false,
+
+      toggleAdminMode: () => {
+        set((state) => ({ adminMode: !state.adminMode }));
       },
 
       initProgress: (userId: string) => {
@@ -59,6 +70,7 @@ export const useProgressStore = create<ProgressStore>()(
       },
 
       isModuleUnlocked: (moduleId: number): boolean => {
+        if (get().adminMode) return true;
         if (moduleId === 1) return true;
         const prev = get().progress.modules[moduleId - 1];
         return prev?.completed ?? false;
@@ -143,6 +155,57 @@ export const useProgressStore = create<ProgressStore>()(
           modules[moduleId] = {
             ...current,
             completed: true,
+            lastAccessed: new Date().toISOString(),
+          };
+          return { progress: { ...state.progress, modules } };
+        });
+      },
+
+      toggleStoryDone: (moduleId: number) => {
+        set((state) => {
+          const modules = { ...state.progress.modules };
+          const current = modules[moduleId] || {
+            moduleId, started: false, completed: false,
+            sections: emptySections(), exerciseAnswers: {},
+          };
+          modules[moduleId] = {
+            ...current, started: true,
+            sections: { ...current.sections, story: !current.sections.story },
+            lastAccessed: new Date().toISOString(),
+          };
+          return { progress: { ...state.progress, modules } };
+        });
+      },
+
+      toggleVocabularyDone: (moduleId: number) => {
+        set((state) => {
+          const modules = { ...state.progress.modules };
+          const current = modules[moduleId] || {
+            moduleId, started: false, completed: false,
+            sections: emptySections(), exerciseAnswers: {},
+          };
+          modules[moduleId] = {
+            ...current, started: true,
+            sections: { ...current.sections, vocabulary: !current.sections.vocabulary },
+            lastAccessed: new Date().toISOString(),
+          };
+          return { progress: { ...state.progress, modules } };
+        });
+      },
+
+      toggleExerciseSkillDone: (moduleId: number, skill: keyof SectionProgress["exercises"]) => {
+        set((state) => {
+          const modules = { ...state.progress.modules };
+          const current = modules[moduleId] || {
+            moduleId, started: false, completed: false,
+            sections: emptySections(), exerciseAnswers: {},
+          };
+          modules[moduleId] = {
+            ...current, started: true,
+            sections: {
+              ...current.sections,
+              exercises: { ...current.sections.exercises, [skill]: !current.sections.exercises[skill] },
+            },
             lastAccessed: new Date().toISOString(),
           };
           return { progress: { ...state.progress, modules } };

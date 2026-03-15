@@ -74,16 +74,32 @@ export default function VocabularyLab({ coreVerbs, idioms, onComplete }: Vocabul
               {expandedVerb === idx && (
                 <div className="px-3 pb-3 border-t border-border/30">
                   {verb.definition && (
-                    <p className="text-sm text-foreground/80 mt-2">
-                      <span className="text-gold-400 font-medium">Definition:</span>{" "}
-                      {verb.definition}
+                    <p className="text-sm text-foreground/80 mt-2 flex items-start gap-2">
+                      <button
+                        onClick={() => speakGerman(verb.definition!)}
+                        className="text-gold-500 hover:text-gold-400 transition-colors shrink-0 mt-0.5"
+                        title="Definition anhören"
+                      >
+                        <Volume2 className="w-3.5 h-3.5" />
+                      </button>
+                      <span>
+                        <span className="text-gold-400 font-medium">Definition:</span>{" "}
+                        {verb.definition}
+                      </span>
                     </p>
                   )}
                   {verb.example && (
-                    <p className="text-sm text-muted mt-2">
-                      <span className="text-gold-400">Beispiel:</span>{" "}
-                      <span className="italic cursor-pointer hover:text-gold-400 transition-colors" onClick={() => speakGerman(verb.example!)}>
-                        {verb.example}
+                    <p className="text-sm text-muted mt-2 flex items-start gap-2">
+                      <button
+                        onClick={() => speakGerman(verb.example!)}
+                        className="text-gold-500 hover:text-gold-400 transition-colors shrink-0 mt-0.5"
+                        title="Beispiel anhören"
+                      >
+                        <Volume2 className="w-3.5 h-3.5" />
+                      </button>
+                      <span>
+                        <span className="text-gold-400">Beispiel:</span>{" "}
+                        <span className="italic">{verb.example}</span>
                       </span>
                     </p>
                   )}
@@ -131,16 +147,32 @@ export default function VocabularyLab({ coreVerbs, idioms, onComplete }: Vocabul
                 {expandedIdiom === idx && (
                   <div className="px-3 pb-3 border-t border-border/30">
                     {idiom.definition && (
-                      <p className="text-sm text-foreground/80 mt-2">
-                        <span className="text-gold-400 font-medium">Definition:</span>{" "}
-                        {idiom.definition}
+                      <p className="text-sm text-foreground/80 mt-2 flex items-start gap-2">
+                        <button
+                          onClick={() => speakGerman(idiom.definition!)}
+                          className="text-gold-500 hover:text-gold-400 transition-colors shrink-0 mt-0.5"
+                          title="Definition anhören"
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
+                        <span>
+                          <span className="text-gold-400 font-medium">Definition:</span>{" "}
+                          {idiom.definition}
+                        </span>
                       </p>
                     )}
                     {idiom.example && (
-                      <p className="text-sm text-muted mt-2">
-                        <span className="text-gold-400">Beispiel:</span>{" "}
-                        <span className="italic cursor-pointer hover:text-gold-400 transition-colors" onClick={() => speakGerman(idiom.example!)}>
-                          {idiom.example}
+                      <p className="text-sm text-muted mt-2 flex items-start gap-2">
+                        <button
+                          onClick={() => speakGerman(idiom.example!)}
+                          className="text-gold-500 hover:text-gold-400 transition-colors shrink-0 mt-0.5"
+                          title="Beispiel anhören"
+                        >
+                          <Volume2 className="w-3.5 h-3.5" />
+                        </button>
+                        <span>
+                          <span className="text-gold-400">Beispiel:</span>{" "}
+                          <span className="italic">{idiom.example}</span>
                         </span>
                       </p>
                     )}

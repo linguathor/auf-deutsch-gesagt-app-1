@@ -11,6 +11,8 @@ import {
   Check,
   Clock,
   ChevronRight,
+  Square,
+  CheckSquare,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import StoryPlayer from "@/components/StoryPlayer";
@@ -34,6 +36,9 @@ export default function ModulePage() {
     getModuleProgress,
     getModuleCompletionPercent,
     setCurrentModule,
+    toggleStoryDone,
+    toggleVocabularyDone,
+    toggleExerciseSkillDone,
   } = useProgressStore();
 
   const [activeSection, setActiveSection] = useState<SectionKey>("story");
@@ -148,7 +153,7 @@ export default function ModulePage() {
         </div>
 
         {/* Section tabs */}
-        <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
+        <div className="flex gap-2 mb-4 overflow-x-auto pb-2">
           {sections.map(({ key, label, icon: Icon, done }) => (
             <button
               key={key}
@@ -167,6 +172,49 @@ export default function ModulePage() {
               {label}
             </button>
           ))}
+        </div>
+
+        {/* Manual checkmarks */}
+        <div className="bg-card rounded-xl border border-border p-4 mb-6">
+          <p className="text-xs text-muted mb-3 uppercase tracking-wider">Fortschritt manuell markieren</p>
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={() => toggleStoryDone(courseModule.id)}
+              className="flex items-center gap-2 text-sm text-foreground/80 hover:text-foreground transition-colors"
+            >
+              {modProgress.sections.story ? (
+                <CheckSquare className="w-4 h-4 text-emerald-400" />
+              ) : (
+                <Square className="w-4 h-4 text-muted" />
+              )}
+              Geschichte
+            </button>
+            <button
+              onClick={() => toggleVocabularyDone(courseModule.id)}
+              className="flex items-center gap-2 text-sm text-foreground/80 hover:text-foreground transition-colors"
+            >
+              {modProgress.sections.vocabulary ? (
+                <CheckSquare className="w-4 h-4 text-emerald-400" />
+              ) : (
+                <Square className="w-4 h-4 text-muted" />
+              )}
+              Vokabeln
+            </button>
+            {(["lesen", "hoeren", "sprechen", "schreiben"] as const).map((skill) => (
+              <button
+                key={skill}
+                onClick={() => toggleExerciseSkillDone(courseModule.id, skill)}
+                className="flex items-center gap-2 text-sm text-foreground/80 hover:text-foreground transition-colors"
+              >
+                {modProgress.sections.exercises[skill] ? (
+                  <CheckSquare className="w-4 h-4 text-emerald-400" />
+                ) : (
+                  <Square className="w-4 h-4 text-muted" />
+                )}
+                {skill === "lesen" ? "Lesen" : skill === "hoeren" ? "Hören" : skill === "sprechen" ? "Sprechen" : "Schreiben"}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Section content */}
