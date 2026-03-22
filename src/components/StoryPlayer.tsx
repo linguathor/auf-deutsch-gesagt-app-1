@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback, useEffect } from "react";
+import { useState, useRef, useCallback, useEffect, useMemo } from "react";
 import { Play, Pause, RotateCcw, Volume2 } from "lucide-react";
 import { CourseModule } from "@/types";
 import { speakGerman, stopSpeaking } from "@/lib/tts";
@@ -114,6 +114,34 @@ export default function StoryPlayer({ module, onComplete }: StoryPlayerProps) {
     : 0;
   const progressPct = totalDuration > 0 ? (currentTime / totalDuration) * 100 : 0;
 
+  // Precompute which sentences belong to which paragraph (sequential assignment)
+  const sentencesByPara = useMemo(() => {
+    const result: number[][] = module.story.paragraphs.map(() => []);
+    let sIdx = 0;
+    for (
+      let pIdx = 0;
+      pIdx < module.story.paragraphs.length && sIdx < sentences.length;
+      pIdx++
+    ) {
+      const para = module.story.paragraphs[pIdx];
+      while (sIdx < sentences.length) {
+        const sTxt = sentences[sIdx].text.replace(/["""]/g, "");
+        if (para.replace(/["""]/g, "").includes(sTxt)) {
+          result[pIdx].push(sIdx);
+          sIdx++;
+        } else {
+          break;
+        }
+      }
+    }
+    // Remaining sentences go to the last paragraph
+    while (sIdx < sentences.length) {
+      result[result.length - 1].push(sIdx);
+      sIdx++;
+    }
+    return result;
+  }, [sentences, module.story.paragraphs]);
+
   return (
     <div className="bg-card rounded-xl border border-border p-6">
       {/* Story header image */}
@@ -185,10 +213,8 @@ export default function StoryPlayer({ module, onComplete }: StoryPlayerProps) {
       <div className="leading-relaxed text-foreground/90 space-y-4 mt-4">
         {module.story.paragraphs.map((para, pIdx) => (
           <p key={pIdx} className="text-base">
-            {sentences
-              .filter((s) => para.includes(s.text))
-              .map((s) => {
-                const sIdx = sentences.indexOf(s);
+            {(sentencesByPara[pIdx] || []).map((sIdx) => {
+                const s = sentences[sIdx];
                 const isActive = sIdx === currentSentence;
                 return (
                   <span

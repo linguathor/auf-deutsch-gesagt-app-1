@@ -10,9 +10,28 @@ interface ModuleCardProps {
 }
 
 export default function ModuleCard({ module }: ModuleCardProps) {
-  const isUnlocked = useProgressStore((s) => s.isModuleUnlocked)(module.id);
-  const modProgress = useProgressStore((s) => s.getModuleProgress)(module.id);
-  const completionPct = useProgressStore((s) => s.getModuleCompletionPercent)(module.id);
+  const adminMode = useProgressStore((s) => s.adminMode);
+  const progress = useProgressStore((s) => s.progress);
+
+  const modProgress = progress.modules[module.id] ?? {
+    moduleId: module.id,
+    started: false,
+    completed: false,
+    sections: { story: false, vocabulary: false, exercises: { lesen: false, hoeren: false, sprechen: false, schreiben: false } },
+    exerciseAnswers: {},
+  };
+
+  const isUnlocked = adminMode || module.id === 1 || (progress.modules[module.id - 1]?.completed ?? false);
+
+  const sectionsDone = [
+    modProgress.sections.story,
+    modProgress.sections.vocabulary,
+    modProgress.sections.exercises.lesen,
+    modProgress.sections.exercises.hoeren,
+    modProgress.sections.exercises.sprechen,
+    modProgress.sections.exercises.schreiben,
+  ].filter(Boolean).length;
+  const completionPct = Math.round((sectionsDone / 6) * 100);
 
   const isPlaceholder = module.story.text === "";
   const isCompleted = modProgress.completed;

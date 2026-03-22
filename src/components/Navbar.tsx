@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Navbar() {
   const { user, isAuthenticated, logout } = useAuthStore();
@@ -60,6 +61,7 @@ export default function Navbar() {
               <span className="text-muted text-xs">{getCompletionPercent()}%</span>
             </div>
             <div className="flex items-center gap-3 border-l border-border pl-4">
+              <ThemeToggle />
               <span className="text-sm text-muted">{user?.name}</span>
               <button
                 onClick={logout}
@@ -84,6 +86,7 @@ export default function Navbar() {
 
         {!isAuthenticated && (
           <div className="flex items-center gap-3">
+            <ThemeToggle />
             <Link
               href="/login"
               className="text-sm text-muted hover:text-foreground transition-colors"

@@ -7414,79 +7414,256 @@ const module10: CourseModule = {
   ],
   "estimatedMinutes": 45,
   "story": {
-    "text": "Nerven behalten",
+    "text": "Nerven behalten\n\nIn der Straßenbahn stehe ich wie immer zwischen zwei Rucksäcken und einem Kinderwagen. Kurz vor der Haltestelle hält der Fahrer erst mal an, dann noch mal - als würde er sich umentscheiden. Die Türen bleiben zu.\n\"Was ist jetzt?\", fragt jemand hinter mir.\nEs rauscht kurz, und dann sagt der Fahrer über die Anlage: \"Wir werden gerade aufgehalten. Da vorne ist ein Lieferwagen in den Gleisbereich geraten, vielen Dank für Ihr Verständnis.\"\nIch halte mich am Griff fest, weil die Straßenbahn einmal ruckt. Neben mir seufzt eine Frau dramatisch, als hätte man ihr den ganzen Tag ruiniert. Ich merke, wie es mich aufregt, wenn sich andere über Dinge aufregen, die nicht zu ändern sind. Und dass ich mich darüber jetzt auch noch aufrege, macht es nicht besser. Immer ruhig Blut. Bringt ja nix, sich morgens schon aufzuregen.\nIm Büro bin ich pünktlich genug, um Jule noch an der Kaffeemaschine zu erwischen. Sie schaut auf mein Gesicht und grinst. \"Was guckst du denn so grimmig? Bist du heute mit dem falschen Bein aufgestanden?\"\n\"Nein, nur der ganz normale Wahnsinn in den Öffis\", sage ich. \"Und ich versuche, die Nerven zu behalten.\"\nSie stellt mir einen Becher hin. \"Dann halt erst mal durch. Heute wird's ... sportlich.\"\nDas ist nie ein gutes Zeichen.\nKeine zehn Minuten später steht Frau Krüger in unserer Tür. Freundlich wie immer, aber kurz angebunden. \"Alex, wir haben ein Problem mit der Sendung für Lichtenberg. Der Kunde besteht darauf, dass wir den Termin einhalten.\"\n\"Die Paletten sind doch schon raus, oder?\", frage ich.\nJule zieht eine Augenbraue hoch. \"Theoretisch. Praktisch hängt's beim Spediteur.\"\nIch öffne das Tracking. Status: Im Depot - zur Klärung zurückgestellt. Also: aufgehalten.\nIch rufe im Lager an. Mehmet geht ran, im Hintergrund piepst irgendwas. \"Alex, wenn du mir jetzt sagst, ich soll zaubern, leg ich auf.\"\n\"Keine Zauberei\", sage ich. \"Was ist mit Lichtenberg?\"\n\"Die halten alles bereit. Aber der Fahrer meinte, irgendwas stimmt mit der Lieferadresse nicht. Deshalb haben die die Ware zurückgehalten.\"\n\"Okay\", sage ich. \"Ich kläre das.\"\n\"Alles klar, ich halte die Füße still\", sagt Mehmet. \"Ich werde mich da schön raushalten.\"\nWar ja klar, denke ich, und rufe den Kunden an.\n\"Guten Morgen, hier ist Alex aus der Auftragsabwicklung\", sage ich etwas angespannt. \"Ich sehe gerade, dass die Sendung im Depot aufgehalten wird. Es geht um eine Adressprüfung.\"\nAm anderen Ende wird hörbar Luft geholt. \"Das darf doch wohl nicht wahr sein. Wir haben das letzte Woche alles festgehalten. Ich habe die E-Mail hier.\"\n\"Genau\", sage ich. \"Ich habe die auch vor mir. Ich schaue mir das sofort an und melde mich in zehn Minuten zurück.\"\n\"Bitte halten Sie sich dran\", sagt er. \"Wir können uns keine Verzögerung leisten.\"\n\"Verstanden\", antworte ich. \"Wir tun alles, um den Termin einzuhalten.\"\nIch lege auf und klicke mich durch die Daten. Und natürlich: Im System steht \"Hausnummer 11\", in der Kundenmail \"11a\". Eine Kleinigkeit, die groß genug ist, um eine ganze Lieferung aufzuhalten.\nFrau Krüger kommt vorbei, sieht meinen Bildschirm und nickt. \"Gut. Klär's mit dem Spediteur. Und Alex - lass dich nicht provozieren.\"\n\"Ich versuch's\", sage ich. \"Ich halte mich zurück.\"\nIch rufe beim Spediteur an, warte in der Schleife, zähle innerlich bis hundert. Irgendwann meldet sich jemand, der klingt, als hätte er seit 6 Uhr Beschwerden am Ohr.\n\"Wir brauchen eine Bestätigung der Hausnummer\", sagt er.\n\"Kein Problem\", sage ich, obwohl mich der Ton nervt. \"Ich schicke Ihnen die Mail vom Kunden. Könnten Sie die Sendung danach bitte sofort freigeben?\"\n\"Wenn das passt, geht's raus.\"\n\"Danke, dann will ich Sie nicht länger von der Arbeit abhalten\", sage ich und lege auf.\nIch schicke die Mail, rufe den Kunden noch mal an, lasse ihn die Hausnummer kurz bestätigen und dokumentiere alles. Jule schaut über meine Schulter. \"Du hast das im Griff. Da kann ich kaum mithalten.\"\n\"Ja, mal sehen, wie lange noch\", murmle ich.\nAls die Bestätigung vom Spediteur kommt - Sendung freigegeben -, lehne ich mich kurz zurück. Genau drei Sekunden lang.\nDann poppt eine neue Mail auf. Betreff: Dringend: Rückfrage Verpackung.\nIch starre drauf und denke: Ich frage mich, wie viele Jahre ich das in diesem Job noch aushalte.\nAlso seufze ich, nehme einen Schluck kalten Kaffee und tippe: \"Ich schaue es mir an.\"\nEs gibt Arbeitstage, bei denen es nur darum geht, durchzuhalten.",
     "headerImage": "/images/story-10.svg",
-    "paragraphs": [],
-    "sentences": []
+    "paragraphs": [
+      "In der Straßenbahn stehe ich wie immer zwischen zwei Rucksäcken und einem Kinderwagen. Kurz vor der Haltestelle hält der Fahrer erst mal an, dann noch mal - als würde er sich umentscheiden. Die Türen bleiben zu.",
+      "\"Was ist jetzt?\", fragt jemand hinter mir.",
+      "Es rauscht kurz, und dann sagt der Fahrer über die Anlage: \"Wir werden gerade aufgehalten. Da vorne ist ein Lieferwagen in den Gleisbereich geraten, vielen Dank für Ihr Verständnis.\"",
+      "Ich halte mich am Griff fest, weil die Straßenbahn einmal ruckt. Neben mir seufzt eine Frau dramatisch, als hätte man ihr den ganzen Tag ruiniert. Ich merke, wie es mich aufregt, wenn sich andere über Dinge aufregen, die nicht zu ändern sind. Und dass ich mich darüber jetzt auch noch aufrege, macht es nicht besser. Immer ruhig Blut. Bringt ja nix, sich morgens schon aufzuregen.",
+      "Im Büro bin ich pünktlich genug, um Jule noch an der Kaffeemaschine zu erwischen. Sie schaut auf mein Gesicht und grinst. \"Was guckst du denn so grimmig? Bist du heute mit dem falschen Bein aufgestanden?\"",
+      "\"Nein, nur der ganz normale Wahnsinn in den Öffis\", sage ich. \"Und ich versuche, die Nerven zu behalten.\"",
+      "Sie stellt mir einen Becher hin. \"Dann halt erst mal durch. Heute wird's ... sportlich.\"",
+      "Das ist nie ein gutes Zeichen.",
+      "Keine zehn Minuten später steht Frau Krüger in unserer Tür. Freundlich wie immer, aber kurz angebunden. \"Alex, wir haben ein Problem mit der Sendung für Lichtenberg. Der Kunde besteht darauf, dass wir den Termin einhalten.\"",
+      "\"Die Paletten sind doch schon raus, oder?\", frage ich.",
+      "Jule zieht eine Augenbraue hoch. \"Theoretisch. Praktisch hängt's beim Spediteur.\"",
+      "Ich öffne das Tracking. Status: Im Depot - zur Klärung zurückgestellt. Also: aufgehalten.",
+      "Ich rufe im Lager an. Mehmet geht ran, im Hintergrund piepst irgendwas. \"Alex, wenn du mir jetzt sagst, ich soll zaubern, leg ich auf.\"",
+      "\"Keine Zauberei\", sage ich. \"Was ist mit Lichtenberg?\"",
+      "\"Die halten alles bereit. Aber der Fahrer meinte, irgendwas stimmt mit der Lieferadresse nicht. Deshalb haben die die Ware zurückgehalten.\"",
+      "\"Okay\", sage ich. \"Ich kläre das.\"",
+      "\"Alles klar, ich halte die Füße still\", sagt Mehmet. \"Ich werde mich da schön raushalten.\"",
+      "War ja klar, denke ich, und rufe den Kunden an.",
+      "\"Guten Morgen, hier ist Alex aus der Auftragsabwicklung\", sage ich etwas angespannt. \"Ich sehe gerade, dass die Sendung im Depot aufgehalten wird. Es geht um eine Adressprüfung.\"",
+      "Am anderen Ende wird hörbar Luft geholt. \"Das darf doch wohl nicht wahr sein. Wir haben das letzte Woche alles festgehalten. Ich habe die E-Mail hier.\"",
+      "\"Genau\", sage ich. \"Ich habe die auch vor mir. Ich schaue mir das sofort an und melde mich in zehn Minuten zurück.\"",
+      "\"Bitte halten Sie sich dran\", sagt er. \"Wir können uns keine Verzögerung leisten.\"",
+      "\"Verstanden\", antworte ich. \"Wir tun alles, um den Termin einzuhalten.\"",
+      "Ich lege auf und klicke mich durch die Daten. Und natürlich: Im System steht \"Hausnummer 11\", in der Kundenmail \"11a\". Eine Kleinigkeit, die groß genug ist, um eine ganze Lieferung aufzuhalten.",
+      "Frau Krüger kommt vorbei, sieht meinen Bildschirm und nickt. \"Gut. Klär's mit dem Spediteur. Und Alex - lass dich nicht provozieren.\"",
+      "\"Ich versuch's\", sage ich. \"Ich halte mich zurück.\"",
+      "Ich rufe beim Spediteur an, warte in der Schleife, zähle innerlich bis hundert. Irgendwann meldet sich jemand, der klingt, als hätte er seit 6 Uhr Beschwerden am Ohr.",
+      "\"Wir brauchen eine Bestätigung der Hausnummer\", sagt er.",
+      "\"Kein Problem\", sage ich, obwohl mich der Ton nervt. \"Ich schicke Ihnen die Mail vom Kunden. Könnten Sie die Sendung danach bitte sofort freigeben?\"",
+      "\"Wenn das passt, geht's raus.\"",
+      "\"Danke, dann will ich Sie nicht länger von der Arbeit abhalten\", sage ich und lege auf.",
+      "Ich schicke die Mail, rufe den Kunden noch mal an, lasse ihn die Hausnummer kurz bestätigen und dokumentiere alles. Jule schaut über meine Schulter. \"Du hast das im Griff. Da kann ich kaum mithalten.\"",
+      "\"Ja, mal sehen, wie lange noch\", murmle ich.",
+      "Als die Bestätigung vom Spediteur kommt - Sendung freigegeben -, lehne ich mich kurz zurück. Genau drei Sekunden lang.",
+      "Dann poppt eine neue Mail auf. Betreff: Dringend: Rückfrage Verpackung.",
+      "Ich starre drauf und denke: Ich frage mich, wie viele Jahre ich das in diesem Job noch aushalte.",
+      "Also seufze ich, nehme einen Schluck kalten Kaffee und tippe: \"Ich schaue es mir an.\"",
+      "Es gibt Arbeitstage, bei denen es nur darum geht, durchzuhalten."
+    ],
+    "sentences": [
+      { "start": 0, "end": 3.5, "text": "In der Straßenbahn stehe ich wie immer zwischen zwei Rucksäcken und einem Kinderwagen." },
+      { "start": 3.5, "end": 8.0, "text": "Kurz vor der Haltestelle hält der Fahrer erst mal an, dann noch mal - als würde er sich umentscheiden." },
+      { "start": 8.0, "end": 10.0, "text": "Die Türen bleiben zu." },
+      { "start": 10.0, "end": 12.5, "text": "Was ist jetzt?\"" },
+      { "start": 12.5, "end": 15.0, "text": "fragt jemand hinter mir." },
+      { "start": 15.0, "end": 18.5, "text": "Es rauscht kurz, und dann sagt der Fahrer über die Anlage:" },
+      { "start": 18.5, "end": 23.5, "text": "Wir werden gerade aufgehalten. Da vorne ist ein Lieferwagen in den Gleisbereich geraten, vielen Dank für Ihr Verständnis.\"" },
+      { "start": 23.5, "end": 27.0, "text": "Ich halte mich am Griff fest, weil die Straßenbahn einmal ruckt." },
+      { "start": 27.0, "end": 32.0, "text": "Neben mir seufzt eine Frau dramatisch, als hätte man ihr den ganzen Tag ruiniert." },
+      { "start": 32.0, "end": 37.5, "text": "Ich merke, wie es mich aufregt, wenn sich andere über Dinge aufregen, die nicht zu ändern sind." },
+      { "start": 37.5, "end": 41.0, "text": "Und dass ich mich darüber jetzt auch noch aufrege, macht es nicht besser." },
+      { "start": 41.0, "end": 43.5, "text": "Immer ruhig Blut." },
+      { "start": 43.5, "end": 47.0, "text": "Bringt ja nix, sich morgens schon aufzuregen." },
+      { "start": 47.0, "end": 52.0, "text": "Im Büro bin ich pünktlich genug, um Jule noch an der Kaffeemaschine zu erwischen." },
+      { "start": 52.0, "end": 55.0, "text": "Sie schaut auf mein Gesicht und grinst." },
+      { "start": 55.0, "end": 61.0, "text": "Was guckst du denn so grimmig? Bist du heute mit dem falschen Bein aufgestanden?\"" },
+      { "start": 61.0, "end": 65.5, "text": "Nein, nur der ganz normale Wahnsinn in den Öffis\"" },
+      { "start": 65.5, "end": 69.0, "text": "sage ich. Und ich versuche, die Nerven zu behalten.\"" },
+      { "start": 69.0, "end": 72.5, "text": "Sie stellt mir einen Becher hin." },
+      { "start": 72.5, "end": 77.5, "text": "Dann halt erst mal durch. Heute wird's ... sportlich.\"" },
+      { "start": 77.5, "end": 80.5, "text": "Das ist nie ein gutes Zeichen." },
+      { "start": 80.5, "end": 88.0, "text": "Keine zehn Minuten später steht Frau Krüger in unserer Tür. Freundlich wie immer, aber kurz angebunden." },
+      { "start": 88.0, "end": 95.5, "text": "Alex, wir haben ein Problem mit der Sendung für Lichtenberg. Der Kunde besteht darauf, dass wir den Termin einhalten.\"" },
+      { "start": 95.5, "end": 99.0, "text": "Die Paletten sind doch schon raus, oder?\"" },
+      { "start": 99.0, "end": 101.5, "text": "frage ich." },
+      { "start": 101.5, "end": 106.0, "text": "Jule zieht eine Augenbraue hoch. Theoretisch. Praktisch hängt's beim Spediteur.\"" },
+      { "start": 106.0, "end": 111.0, "text": "Ich öffne das Tracking. Status: Im Depot - zur Klärung zurückgestellt. Also: aufgehalten." },
+      { "start": 111.0, "end": 116.5, "text": "Ich rufe im Lager an. Mehmet geht ran, im Hintergrund piepst irgendwas." },
+      { "start": 116.5, "end": 121.0, "text": "Alex, wenn du mir jetzt sagst, ich soll zaubern, leg ich auf.\"" },
+      { "start": 121.0, "end": 124.0, "text": "Keine Zauberei\"" },
+      { "start": 124.0, "end": 127.5, "text": "sage ich. Was ist mit Lichtenberg?\"" },
+      { "start": 127.5, "end": 135.0, "text": "Die halten alles bereit. Aber der Fahrer meinte, irgendwas stimmt mit der Lieferadresse nicht. Deshalb haben die die Ware zurückgehalten.\"" },
+      { "start": 135.0, "end": 138.0, "text": "Okay\"" },
+      { "start": 138.0, "end": 141.0, "text": "sage ich. Ich kläre das.\"" },
+      { "start": 141.0, "end": 146.5, "text": "Alles klar, ich halte die Füße still\"" },
+      { "start": 146.5, "end": 151.0, "text": "sagt Mehmet. Ich werde mich da schön raushalten.\"" },
+      { "start": 151.0, "end": 155.5, "text": "War ja klar, denke ich, und rufe den Kunden an." },
+      { "start": 155.5, "end": 162.0, "text": "Guten Morgen, hier ist Alex aus der Auftragsabwicklung\"" },
+      { "start": 162.0, "end": 169.5, "text": "sage ich etwas angespannt. Ich sehe gerade, dass die Sendung im Depot aufgehalten wird. Es geht um eine Adressprüfung.\"" },
+      { "start": 169.5, "end": 174.0, "text": "Am anderen Ende wird hörbar Luft geholt." },
+      { "start": 174.0, "end": 181.0, "text": "Das darf doch wohl nicht wahr sein. Wir haben das letzte Woche alles festgehalten. Ich habe die E-Mail hier.\"" },
+      { "start": 181.0, "end": 186.0, "text": "Genau\"" },
+      { "start": 186.0, "end": 193.0, "text": "sage ich. Ich habe die auch vor mir. Ich schaue mir das sofort an und melde mich in zehn Minuten zurück.\"" },
+      { "start": 193.0, "end": 197.5, "text": "Bitte halten Sie sich dran\"" },
+      { "start": 197.5, "end": 202.0, "text": "sagt er. Wir können uns keine Verzögerung leisten.\"" },
+      { "start": 202.0, "end": 205.5, "text": "Verstanden\"" },
+      { "start": 205.5, "end": 210.5, "text": "antworte ich. Wir tun alles, um den Termin einzuhalten.\"" },
+      { "start": 210.5, "end": 219.0, "text": "Ich lege auf und klicke mich durch die Daten. Und natürlich: Im System steht \"Hausnummer 11\", in der Kundenmail \"11a\"." },
+      { "start": 219.0, "end": 224.0, "text": "Eine Kleinigkeit, die groß genug ist, um eine ganze Lieferung aufzuhalten." },
+      { "start": 224.0, "end": 230.5, "text": "Frau Krüger kommt vorbei, sieht meinen Bildschirm und nickt. Gut. Klär's mit dem Spediteur. Und Alex - lass dich nicht provozieren.\"" },
+      { "start": 230.5, "end": 234.5, "text": "Ich versuch's\"" },
+      { "start": 234.5, "end": 238.5, "text": "sage ich. Ich halte mich zurück.\"" },
+      { "start": 238.5, "end": 245.0, "text": "Ich rufe beim Spediteur an, warte in der Schleife, zähle innerlich bis hundert." },
+      { "start": 245.0, "end": 251.0, "text": "Irgendwann meldet sich jemand, der klingt, als hätte er seit 6 Uhr Beschwerden am Ohr." },
+      { "start": 251.0, "end": 255.5, "text": "Wir brauchen eine Bestätigung der Hausnummer\"" },
+      { "start": 255.5, "end": 258.5, "text": "sagt er." },
+      { "start": 258.5, "end": 263.0, "text": "Kein Problem\"" },
+      { "start": 263.0, "end": 270.5, "text": "sage ich, obwohl mich der Ton nervt. Ich schicke Ihnen die Mail vom Kunden. Könnten Sie die Sendung danach bitte sofort freigeben?\"" },
+      { "start": 270.5, "end": 274.0, "text": "Wenn das passt, geht's raus.\"" },
+      { "start": 274.0, "end": 279.5, "text": "Danke, dann will ich Sie nicht länger von der Arbeit abhalten\"" },
+      { "start": 279.5, "end": 283.0, "text": "sage ich und lege auf." },
+      { "start": 283.0, "end": 292.0, "text": "Ich schicke die Mail, rufe den Kunden noch mal an, lasse ihn die Hausnummer kurz bestätigen und dokumentiere alles." },
+      { "start": 292.0, "end": 297.5, "text": "Jule schaut über meine Schulter. Du hast das im Griff. Da kann ich kaum mithalten.\"" },
+      { "start": 297.5, "end": 301.5, "text": "Ja, mal sehen, wie lange noch\"" },
+      { "start": 301.5, "end": 304.5, "text": "murmle ich." },
+      { "start": 304.5, "end": 311.0, "text": "Als die Bestätigung vom Spediteur kommt - Sendung freigegeben -, lehne ich mich kurz zurück." },
+      { "start": 311.0, "end": 314.5, "text": "Genau drei Sekunden lang." },
+      { "start": 314.5, "end": 319.0, "text": "Dann poppt eine neue Mail auf. Betreff: Dringend: Rückfrage Verpackung." },
+      { "start": 319.0, "end": 325.5, "text": "Ich starre drauf und denke: Ich frage mich, wie viele Jahre ich das in diesem Job noch aushalte." },
+      { "start": 325.5, "end": 331.0, "text": "Also seufze ich, nehme einen Schluck kalten Kaffee und tippe: Ich schaue es mir an.\"" },
+      { "start": 331.0, "end": 337.0, "text": "Es gibt Arbeitstage, bei denen es nur darum geht, durchzuhalten." }
+    ]
   },
   "coreVerbs": [
     {
-      "german": "aushalten",
-      "english": "to endure / to bear",
-      "definition": "Etwas Unangenehmes ertragen können.",
-      "example": "Ich kann diesen Lärm kaum aushalten."
-    },
-    {
       "german": "anhalten",
-      "english": "to stop / to persist",
-      "definition": "1. Stoppen. 2. Andauern.",
-      "example": "Der Fahrer hält an."
-    },
-    {
-      "german": "einhalten",
-      "english": "to keep / comply with",
-      "definition": "Eine Regel, einen Termin oder ein Versprechen beachten.",
-      "example": "Wir müssen die Frist einhalten."
+      "english": "to stop",
+      "definition": "Kurz stehen bleiben oder stoppen.",
+      "example": "Der Fahrer hält erst mal an."
     },
     {
       "german": "aufhalten",
       "english": "to hold up / delay",
-      "definition": "Jemanden oder etwas verzögern.",
+      "definition": "Etwas verzögern, sodass es nicht weiterkommt.",
       "example": "Ein Lieferwagen hat uns aufgehalten."
     },
     {
       "german": "festhalten",
-      "english": "to hold on to",
-      "definition": "1. Etwas greifen und nicht loslassen. 2. An etwas festhalten (Meinung).",
-      "example": "Halte dich gut fest!"
+      "english": "to hold on; to document",
+      "definition": "Sich irgendwo festklammern; außerdem: etwas schriftlich dokumentieren.",
+      "example": "Ich halte mich am Griff fest. / Wir haben alles festgehalten."
     },
     {
-      "german": "dagegenhalten",
-      "english": "to counter / to argue against",
-      "definition": "Einem Argument widersprechen.",
-      "example": "Da muss man dagegenhalten."
+      "german": "durchhalten",
+      "english": "to hold out / persevere",
+      "definition": "Weitermachen, obwohl es anstrengend ist.",
+      "example": "Dann halt erst mal durch."
+    },
+    {
+      "german": "einhalten",
+      "english": "to keep / comply with",
+      "definition": "Einen Termin oder eine Frist schaffen.",
+      "example": "Wir tun alles, um den Termin einzuhalten."
     },
     {
       "german": "zurückhalten",
-      "english": "to hold back / restrain",
-      "definition": "Sich oder andere bremsen, nicht sofort reagieren.",
-      "example": "Ich konnte mich kaum zurückhalten."
+      "english": "to hold back / withhold",
+      "definition": "Etwas nicht freigeben; sich selbst bremsen.",
+      "example": "Die Ware wurde zurückgehalten. / Ich halte mich zurück."
+    },
+    {
+      "german": "stillhalten",
+      "english": "to keep still / wait",
+      "definition": "Nichts tun, abwarten, sich nicht einmischen.",
+      "example": "Ich halte die Füße still."
+    },
+    {
+      "german": "sich raushalten",
+      "english": "to stay out of it",
+      "definition": "Sich nicht beteiligen wollen.",
+      "example": "Ich werde mich da schön raushalten."
+    },
+    {
+      "german": "abhalten",
+      "english": "to keep from / hold back",
+      "definition": "Jemanden von etwas fernhalten oder aufhalten.",
+      "example": "Ich will Sie nicht länger von der Arbeit abhalten."
+    },
+    {
+      "german": "aushalten",
+      "english": "to endure / to bear",
+      "definition": "Etwas Belastendes ertragen.",
+      "example": "Wie viele Jahre halte ich das noch aus?"
     }
   ],
   "idioms": [
     {
-      "german": "die Nerven behalten",
-      "english": "to keep one's cool",
-      "definition": "Ruhig bleiben in einer stressigen Situation.",
-      "example": "Man muss die Nerven behalten."
+      "german": "ruhig Blut",
+      "english": "keep calm",
+      "definition": "Ruhig bleiben, sich nicht unnötig aufregen.",
+      "example": "Immer ruhig Blut."
     },
     {
-      "german": "davon halte ich nichts",
-      "english": "I don't think much of that",
-      "definition": "Etwas nicht gut finden, nicht einverstanden sein.",
-      "example": "Davon halte ich absolut nichts."
+      "german": "Bringt ja nix.",
+      "english": "There's no point.",
+      "definition": "Es hat keinen Sinn.",
+      "example": "Bringt ja nix, sich morgens schon aufzuregen."
+    },
+    {
+      "german": "der ganz normale Wahnsinn",
+      "english": "the usual chaos",
+      "definition": "Der übliche alltägliche Stress.",
+      "example": "Nur der ganz normale Wahnsinn in den Öffis."
+    },
+    {
+      "german": "die Nerven behalten",
+      "english": "to keep one's cool",
+      "definition": "Ruhig und kontrolliert bleiben.",
+      "example": "Ich versuche, die Nerven zu behalten."
+    },
+    {
+      "german": "Heute wird's sportlich.",
+      "english": "It's going to be tough today.",
+      "definition": "Es wird anstrengend oder chaotisch.",
+      "example": "Dann halt erst mal durch. Heute wird's sportlich."
+    },
+    {
+      "german": "kurz angebunden sein",
+      "english": "to be curt / short",
+      "definition": "Knapp und nicht besonders gesprächig sein.",
+      "example": "Freundlich wie immer, aber kurz angebunden."
     },
     {
       "german": "sich an etwas halten",
       "english": "to stick to something",
-      "definition": "Regeln oder Absprachen beachten.",
-      "example": "Halt dich bitte an die Regeln."
+      "definition": "Sich an eine Abmachung oder Vorgabe halten.",
+      "example": "Bitte halten Sie sich dran."
     },
     {
-      "german": "jemandem den Rücken freihalten",
-      "english": "to have someone's back",
-      "definition": "Jemanden vor Störungen oder Problemen schützen.",
-      "example": "Ich halte dir den Rücken frei."
+      "german": "War ja klar.",
+      "english": "Of course. (ironic)",
+      "definition": "Resigniert-ironisch: Natürlich passiert genau das jetzt.",
+      "example": "War ja klar, denke ich."
+    },
+    {
+      "german": "Das darf doch wohl nicht wahr sein.",
+      "english": "That can't be right.",
+      "definition": "Ausdruck von Ärger oder Unglauben.",
+      "example": "Das darf doch wohl nicht wahr sein."
+    },
+    {
+      "german": "in der Schleife warten",
+      "english": "to be on hold",
+      "definition": "In der Warteschleife hängen.",
+      "example": "Ich rufe beim Spediteur an und warte in der Schleife."
+    },
+    {
+      "german": "etwas im Griff haben",
+      "english": "to have something under control",
+      "definition": "Eine Situation kontrollieren.",
+      "example": "Du hast das im Griff."
+    },
+    {
+      "german": "mithalten",
+      "english": "to keep up",
+      "definition": "Mit jemandem Schritt halten können.",
+      "example": "Da kann ich kaum mithalten."
     }
   ],
   "exercises": [

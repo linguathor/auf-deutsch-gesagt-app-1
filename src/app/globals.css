@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme inline {
+@theme {
   --color-background: #0a1628;
   --color-foreground: #e8edf5;
   --color-navy-900: #0a1628;
@@ -25,9 +25,41 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Light mode overrides */
+html.light {
+  --color-background: #f5f5f0;
+  --color-foreground: #1a1a2e;
+  --color-navy-900: #f5f5f0;
+  --color-navy-800: #eaeae5;
+  --color-navy-700: #ddddd8;
+  --color-navy-600: #c8c8c3;
+  --color-navy-500: #a0a09b;
+  --color-gold-500: #b8922a;
+  --color-gold-400: #a07e1e;
+  --color-gold-300: #8a6c18;
+  --color-muted: #5a5a6e;
+  --color-card: #ffffff;
+  --color-card-hover: #f0f0eb;
+  --color-border: #d4d4cf;
+  --color-emerald-500: #059669;
+  --color-emerald-400: #10b981;
+  --color-coral-500: #dc2626;
+  --color-coral-400: #ef4444;
+  --color-sky-500: #0284c7;
+  --color-sky-400: #0ea5e9;
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--color-navy-600) var(--color-navy-900);
+}
+
+html.light * {
+  scrollbar-color: var(--color-border) var(--color-background);
+}
+
+html.light .shadow-gold-500\/20 {
+  --tw-shadow-color: rgba(184, 146, 42, 0.2);
 }
 
 body {
