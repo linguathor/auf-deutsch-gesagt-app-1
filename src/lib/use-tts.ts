@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useCallback, useState } from "react";
-import { pcmToWav } from "@/lib/pcm-to-wav";
 
 /** In-memory cache: text → blob URL (session-lifetime) */
 const urlCache = new Map<string, string>();
@@ -39,19 +38,17 @@ export function useTTS(): UseTTSReturn {
           const res = await fetch("/api/tts", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ text, voiceName: "Kore" }),
+            body: JSON.stringify({ text }),
           });
 
           if (!res.ok) throw new Error(`TTS API ${res.status}`);
 
-          const { audioData, sampleRate } = await res.json();
-          const blob = pcmToWav(audioData, sampleRate);
+          const blob = await res.blob();
           blobUrl = URL.createObjectURL(blob);
           urlCache.set(cacheKey, blobUrl);
         } catch (err) {
-          console.warn("Gemini TTS failed, falling back to browser:", err);
+          console.warn("ElevenLabs TTS failed, falling back to browser:", err);
           setLoading(false);
-          // Fallback to browser SpeechSynthesis
           return browserFallback(text);
         }
         setLoading(false);

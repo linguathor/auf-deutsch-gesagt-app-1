@@ -3,76 +3,70 @@ import { existsSync, readFileSync, writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 import crypto from "crypto";
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const VOICE_ID = "JBFqnCBsd6RMkjVDRZzb";
+const MODEL_ID = "eleven_multilingual_v2";
+const OUTPUT_FORMAT = "mp3_44100_128";
 const CACHE_DIR = join(process.cwd(), ".tts-cache");
 
 export async function POST(req: NextRequest) {
-  if (!GEMINI_API_KEY) {
+  const apiKey = process.env.ELEVENLABS_API_KEY;
+  if (!apiKey) {
     return NextResponse.json({ error: "API key not configured" }, { status: 500 });
   }
 
-  const { text, voiceName } = await req.json();
+  const { text } = await req.json();
 
-  if (!text || typeof text !== "string" || text.length > 2000) {
+  if (!text || typeof text !== "string" || text.length > 5000) {
     return NextResponse.json({ error: "Invalid text" }, { status: 400 });
   }
 
-  // Deterministic cache key from text + voice
-  const voice = voiceName || "Kore";
-  const hash = crypto.createHash("sha256").update(`${voice}:${text}`).digest("hex");
-  const cacheFile = join(CACHE_DIR, `${hash}.json`);
+  // Deterministic cache key
+  const hash = crypto
+    .createHash("sha256")
+    .update(`elevenlabs:${VOICE_ID}:${text}`)
+    .digest("hex");
+  const cacheFile = join(CACHE_DIR, `${hash}.mp3`);
 
   // Return cached audio if it exists
   if (existsSync(cacheFile)) {
-    const cached = JSON.parse(readFileSync(cacheFile, "utf-8"));
-    return NextResponse.json(cached);
+    const cached = readFileSync(cacheFile);
+    return new NextResponse(cached, {
+      headers: { "Content-Type": "audio/mpeg" },
+    });
   }
 
-  // Call Gemini TTS API
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${GEMINI_API_KEY}`;
+  // Call ElevenLabs TTS REST API
+  const url = `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}?output_format=${OUTPUT_FORMAT}`;
 
   const res = await fetch(url, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text }] }],
-      generationConfig: {
-        responseModalities: ["AUDIO"],
-        speechConfig: {
-          voiceConfig: {
-            prebuiltVoiceConfig: { voiceName: voice },
-          },
-        },
-      },
-    }),
+    headers: {
+      "xi-api-key": apiKey,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ text, model_id: MODEL_ID }),
   });
 
   if (!res.ok) {
     const errText = await res.text();
-    console.error("Gemini TTS error:", res.status, errText);
+    console.error("ElevenLabs TTS error:", res.status, errText);
     return NextResponse.json(
-      { error: "TTS generation failed", status: res.status },
+      { error: "TTS generation failed" },
       { status: res.status === 429 ? 429 : 502 }
     );
   }
 
-  const data = await res.json();
-  const audioData =
-    data?.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-
-  if (!audioData) {
-    return NextResponse.json({ error: "No audio in response" }, { status: 502 });
-  }
-
-  const result = { audioData, sampleRate: 24000 };
+  const audioBuffer = Buffer.from(await res.arrayBuffer());
 
   // Save to disk cache
   try {
     if (!existsSync(CACHE_DIR)) mkdirSync(CACHE_DIR, { recursive: true });
-    writeFileSync(cacheFile, JSON.stringify(result));
+    writeFileSync(cacheFile, audioBuffer);
   } catch {
     // Non-fatal: cache write failure
   }
 
-  return NextResponse.json(result);
+  return new NextResponse(audioBuffer, {
+    headers: { "Content-Type": "audio/mpeg" },
+  });
 }
